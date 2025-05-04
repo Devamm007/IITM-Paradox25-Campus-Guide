@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Main Auditorium",
+    "location": {
+      "latitude": 12.9716,
+      "longitude": 77.5946
+    },
+    "type": "Venue"
+  }
+]
