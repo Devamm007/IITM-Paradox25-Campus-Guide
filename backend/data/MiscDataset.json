@@ -1,10 +1,74 @@
 [
   {
-    "name": "Main Auditorium",
+    "name": "Cafe Coffee Day (CCD)",
     "location": {
-      "latitude": 12.9716,
-      "longitude": 77.5946
+      "latitude": "",
+      "longitude": ""
     },
-    "type": "Venue"
+    "type": "Food"
+  },
+  {
+    "name": "Usha Cafe",
+    "location": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "type": "Food"
+  },
+  {
+    "name": "Prime Mart",
+    "location": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "type": "Supplies"
+  },
+  {
+    "name": "Ishtara",
+    "location": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "type": "Food"
+  },
+  {
+    "name": "Zaitoon Restaurant",
+    "location": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "type": "Food"
+  },
+  {
+    "name": "Nescafe (HDFC)",
+    "location": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "type": "Food"
+  },
+  {
+    "name": "Cycle Repair (Tharamani)",
+    "location": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "type": "Help"
+  },
+  {
+    "name": "Cycle Repair (Usha Cafe)",
+    "location": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "type": "Help"
+  },
+  {
+    "name": "Cafe Coffee Day (CCD)",
+    "location": {
+      "latitude": "",
+      "longitude": ""
+    },
+    "type": "Food"
   }
 ]
