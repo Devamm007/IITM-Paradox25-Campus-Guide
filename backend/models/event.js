@@ -13,10 +13,13 @@ const eventSchema = new mongoose.Schema({
     type: Date,
     required: true,
   },
-  location: {
-    latitude: { type: Number, required: true },
-    longitude: { type: Number, required: true },
-  },
+  locations: [
+    {
+      name: { type: String, required: true },
+      latitude: { type: Number, required: true },
+      longitude: { type: Number, required: true },
+    },
+  ],
   documentLink: {
     type: String,
     required: true,
