@@ -2,72 +2,72 @@
   {
     "name": "Cafe Coffee Day (CCD)",
     "location": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": 0,
+      "longitude": 0
     },
     "type": "Food"
   },
   {
     "name": "Usha Cafe",
     "location": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": 0,
+      "longitude": 0
     },
     "type": "Food"
   },
   {
     "name": "Prime Mart",
     "location": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": 0,
+      "longitude": 0
     },
     "type": "Supplies"
   },
   {
     "name": "Ishtara",
     "location": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": 0,
+      "longitude": 0
     },
     "type": "Food"
   },
   {
     "name": "Zaitoon Restaurant",
     "location": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": 0,
+      "longitude": 0
     },
     "type": "Food"
   },
   {
     "name": "Nescafe (HDFC)",
     "location": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": 0,
+      "longitude": 0
     },
     "type": "Food"
   },
   {
     "name": "Cycle Repair (Tharamani)",
     "location": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": 0,
+      "longitude": 0
     },
     "type": "Help"
   },
   {
     "name": "Cycle Repair (Usha Cafe)",
     "location": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": 0,
+      "longitude": 0
     },
     "type": "Help"
   },
   {
     "name": "Cafe Coffee Day (CCD)",
     "location": {
-      "latitude": "",
-      "longitude": ""
+      "latitude": 0,
+      "longitude": 0
     },
     "type": "Food"
   }

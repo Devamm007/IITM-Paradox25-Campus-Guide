@@ -6,11 +6,34 @@ import mongoose from "mongoose";
 
 import Event from "./models/event.js";
 import Miscellaneous from "./models/miscellaneous.js";
+import nunjucks from "nunjucks";
 
 const app = express();
 
 const MONGO_URI = process.env.MONGODB_URI;
 const PORT = process.env.PORT;
+
+app.set("view engine", "html")
+
+const env = nunjucks.configure('views', {
+  express: app,
+  autoescape: true,
+  watch: true,  // This is the key option - watches for template changes
+  noCache: true // Disable caching in development
+});
+
+env.addFilter('toIST', (utcTimeStr) => {
+  const date = new Date(utcTimeStr);
+  date.setHours(date.getHours() + 5);
+  date.setMinutes(date.getMinutes() + 30);
+  return date.toLocaleString('en-IN', {
+    timeZone: 'Asia/Kolkata',
+    hour12: true,
+  });
+});
+
+app.use(express.urlencoded({ extended: false }))
+app.use('/static', express.static("static"));
 
 // mongo connect
 mongoose
@@ -23,14 +46,15 @@ mongoose
   });
 
 app.get("/", (req, res) => {
-  return res.send("hi from backend");
+  return res.render("home");
 });
 
 app.get("/events", async (req, res) => {
   const events = await Event.find({});
+  events.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
   // console.log(events);
   // events is an array of objects
-  return res.json({ events });
+  return res.render("events", {events});
 });
 
 app.get("/event/:id", async (req, res) => {
@@ -54,7 +78,7 @@ app.get("/miscellaneous", async (req, res) => {
   const misc = await Miscellaneous.find({});
   // console.log(misc);
   // misc is array of objects
-  res.send("hi from misc");
+  res.render("miscellaneous", {misc});
 });
 
 app.get("/miscellaneous/:id", async (req, res) => {
@@ -68,6 +92,10 @@ app.get("/miscellaneous/:id", async (req, res) => {
   }
   // console.log(misc);
   return res.send("hi from /misc/:id");
+});
+
+app.get("/webteam", (req, res) => {
+  return res.render("webteam");
 });
 
 app.listen(PORT, () => {

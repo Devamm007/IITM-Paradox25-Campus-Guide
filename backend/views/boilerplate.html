@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>
+            {% block title %}
+            Paradox 2025 Guide
+            {% endblock %}
+        </title>
+        <style>
+            html {
+                scroll-padding-top: 120px;
+                scroll-margin-top: 2-px;
+            }
+            .main-content {
+                padding-top: 5rem;
+                min-height: 60vh;
+            }
+            body {
+                background: radial-gradient(rgb(34, 34, 34), rgb(0,0,0)) !important;
+                color: #fff !important;
+            }
+            .navbar-dark-mode {
+                background: rgba(10,10,10,0.7) !important;
+                backdrop-filter: blur(3px) !important;
+            }
+            .navbar-dark-mode .nav-link,
+            .navbar-dark-mode .navbar-brand {
+                color: #fff !important;
+            }
+            .nav-link, .navbar-brand {
+                transition: color 0.15s;
+            }
+            .toggle-btn {
+                color: #ffd400;
+                font-size: 1.15rem;
+            }
+            .dark-mode, .dark-mode .card, .dark-mode .card-body, .dark-mode .container, .dark-mode .row, .dark-mode .main-content {
+                color: #fff !important;
+            }
+            .card {
+                background-color: #181a1b !important;
+                color: #fff !important;
+            }
+            .dark-mode a:not(.btn):not(.navbar-brand) {color: #7ecaf7;}
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    </head>
+    <body class="dark-mode">
+        <nav class="navbar navbar-expand-lg border-bottom navbar-dark navbar-dark-mode fixed-top py-3 shadow-sm">
+            <div class="container">
+                <a class="navbar-brand d-inline-flex align-items-center" href="/">
+                <span class="fs-2 fw-bold ms-2">Campus Guide</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse mt-4 mt-lg-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-2">
+                            <a class="nav-link fw-bold" href="/events">Events</a>
+                            </li>
+                        <li class="nav-item px-2">
+                        <a class="nav-link fw-bold" href="/miscellaneous">Hangout</a>
+                        </li>
+                        <li class="nav-item px-2">
+                        <a class="nav-link fw-bold" href="/webteam">Contact</a>
+                        </li>
+                        <li class="nav-item px-2">
+                        <a class="nav-link fw-bold" href="/search">Search Events</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="main-content mt-4">
+            {% block body %}
+            
+            {% endblock %}
+        </div>
+        <footer class="" id="contact">
+            <div class="container">
+                <hr class="border-2 border-secondary my-4">
+            </div>
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <span class="mb-4 text-secondary d-block text-center">
+                    Made with&nbsp;
+                    <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="#EB6453" viewBox="0 0 16 16" aria-label="love">
+                        <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"></path>
+                    </svg>
+                    &nbsp;by&nbsp;
+                    <a class="text-secondary text-decoration-underline" href="/webteam" target="_blank">Kaushal and Devam</a>🔗
+                    </span>
+                </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    </body>
+</html>
