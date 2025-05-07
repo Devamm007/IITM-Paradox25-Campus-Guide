@@ -1,19 +1,14 @@
-{% extends "boilerplate.html" %}
-{% block body %}
+{% extends "boilerplate.html" %} {% block body %} {% for event in events %}
+<div>
+  <h2>{{event.name}}</h2>
+  <p>Timings: {{event.startTime|toIST}} to {{event.endTime|toIST}}</p>
+  {% for location in event.locations %}
+  <p>{{location.name}}: {{location.latitude}}, {{location.longitude}}</p>
+  {% endfor %}
+</div>
+{% endfor %}
 
-    {% for event in events %}
-        <div>
-            <h2>{{event.name}}</h2>
-            <p>Timings: {{event.startTime|toIST}} to {{event.endTime|toIST}}</p>
-            {% for location in event.locations %}
-                <p>{{location.name}}: {{location.latitude}}, {{location.longitude}}</p>
-            {% endfor %}
-        </div>
-    {% endfor %}
-
-    func
-
-    <!-- <h1 class="text-center">Technicals</h1>
+<!-- <h1 class="text-center">Technicals</h1>
     <div>
 
     </div>

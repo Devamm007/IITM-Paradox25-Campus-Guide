@@ -12,28 +12,29 @@ const app = express();
 
 const MONGO_URI = process.env.MONGODB_URI;
 const PORT = process.env.PORT;
+const secret = process.env.secret;
 
-app.set("view engine", "html")
+app.set("view engine", "html");
 
-const env = nunjucks.configure('views', {
+const env = nunjucks.configure("views", {
   express: app,
   autoescape: true,
-  watch: true,  // This is the key option - watches for template changes
-  noCache: true // Disable caching in development
+  watch: true, // This is the key option - watches for template changes
+  noCache: true, // Disable caching in development
 });
 
-env.addFilter('toIST', (utcTimeStr) => {
+env.addFilter("toIST", (utcTimeStr) => {
   const date = new Date(utcTimeStr);
   date.setHours(date.getHours() + 5);
   date.setMinutes(date.getMinutes() + 30);
-  return date.toLocaleString('en-IN', {
-    timeZone: 'Asia/Kolkata',
+  return date.toLocaleString("en-IN", {
+    timeZone: "Asia/Kolkata",
     hour12: true,
   });
 });
 
-app.use(express.urlencoded({ extended: false }))
-app.use('/static', express.static("static"));
+app.use(express.urlencoded({ extended: false }));
+app.use("/static", express.static("static"));
 
 // mongo connect
 mongoose
@@ -54,7 +55,7 @@ app.get("/events", async (req, res) => {
   events.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
   // console.log(events);
   // events is an array of objects
-  return res.render("events", {events});
+  return res.render("events", { events });
 });
 
 app.get("/event/:id", async (req, res) => {
@@ -78,7 +79,7 @@ app.get("/miscellaneous", async (req, res) => {
   const misc = await Miscellaneous.find({});
   // console.log(misc);
   // misc is array of objects
-  res.render("miscellaneous", {misc});
+  res.render("miscellaneous", { misc });
 });
 
 app.get("/miscellaneous/:id", async (req, res) => {
@@ -96,6 +97,111 @@ app.get("/miscellaneous/:id", async (req, res) => {
 
 app.get("/webteam", (req, res) => {
   return res.render("webteam");
+});
+
+// secret route
+app.get("/shakalakaboomboom", (req, res) => {
+  res.send("hello");
+});
+
+// post route for creation
+app.post("/shakalakaboomboom", async (req, res) => {
+  const name = req.body.name;
+  const startTime = req.body.start;
+  const endTime = req.body.end;
+  const locName = req.body.locName;
+  const lat = Number(req.body.lat);
+  const long = Number(req.body.long);
+
+  try {
+    // secret for us
+    if (req.body.secret !== secret) {
+      return res.status(403).json({ msg: "Unauthorized" });
+    }
+
+    await Event.create({
+      name,
+      startTime,
+      endTime,
+      locations: [{ name: locName, latitude: lat, longitude: long }],
+      documentLink: "example",
+      organiserEmail: "example@ds.study.iitm.ac.in",
+    });
+    return res.status(201).json({ msg: "created event successfully" });
+  } catch (e) {
+    res.status(500).json({ error: e });
+  }
+});
+
+// get route for edit
+app.get("/shakalakaboomboom/edit/:id", async (req, res) => {
+  const id = req.params.id;
+  const event = await Event.findById(id);
+
+  if (!event) {
+    return res.status(404).json({ msg: "event not found!" });
+  }
+  res.send("load event edit form");
+});
+
+// post route for edit
+app.post("/shakalakaboomboom/edit/:id", async (req, res) => {
+  try {
+    const id = req.params.id;
+    const secretPassed = req.body.secret;
+    if (secretPassed !== secret) {
+      return res.status(403).json({ msg: "Unauthorized" });
+    }
+    const { name, startTime, endTime, locName, lat, long } = req.body;
+
+    const updated = await Event.findByIdAndUpdate(
+      id,
+      {
+        name,
+        startTime,
+        endTime,
+        locations: [{ name: locName, latitude: lat, longitude: long }],
+      },
+      { new: true }
+    );
+
+    if (!updated) {
+      return res.status(404).json("event not found");
+    }
+
+    res.json({ msg: "Event updated", updated });
+  } catch (e) {
+    console.error(e);
+    res.status(500).json({ msg: "Internal server error" });
+  }
+});
+
+// delete route
+app.post("/shakalakaboomboom/delete/:id", async (req, res) => {
+  if (req.body.secret !== secret) {
+    return res.status(403).json({ msg: "Unauthorized" });
+  }
+
+  const deleted = await Event.findByIdAndDelete(req.params.id);
+
+  if (!deleted) {
+    return res.status(404).json({ msg: "Event not found" });
+  }
+  res.json({ msg: "Event deleted", deleted });
+});
+
+// event search - case in-sensitive and with regular expressions
+app.get("/search", async (req, res) => {
+  const query = req.query.q;
+
+  const events = await Event.find({
+    name: { $regex: query, $options: "i" },
+  });
+
+  if (events.length === 0) {
+    return res.status(404).json({ msg: "No events found" });
+  }
+  return res.json(events);
 });
 
 app.listen(PORT, () => {
