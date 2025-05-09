@@ -25,11 +25,11 @@ const env = nunjucks.configure("views", {
 
 env.addFilter("toIST", (utcTimeStr) => {
   const date = new Date(utcTimeStr);
-  date.setHours(date.getHours() + 5);
-  date.setMinutes(date.getMinutes() + 30);
   return date.toLocaleString("en-IN", {
     timeZone: "Asia/Kolkata",
-    hour12: true,
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false
   });
 });
 
@@ -52,10 +52,11 @@ app.get("/", (req, res) => {
 
 app.get("/events", async (req, res) => {
   const events = await Event.find({});
+  const query = ""
   events.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
   // console.log(events);
   // events is an array of objects
-  return res.render("events", { events });
+  return res.render("events", {events, query});
 });
 
 app.get("/event/:id", async (req, res) => {
@@ -100,8 +101,10 @@ app.get("/webteam", (req, res) => {
 });
 
 // secret route
-app.get("/shakalakaboomboom", (req, res) => {
-  res.send("hello");
+app.get("/shakalakaboomboom", async (req, res) => {
+  const events = await Event.find({});
+  events.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
+  res.render("admin", {events});
 });
 
 // post route for creation
@@ -127,7 +130,8 @@ app.post("/shakalakaboomboom", async (req, res) => {
       documentLink: "example",
       organiserEmail: "example@ds.study.iitm.ac.in",
     });
-    return res.status(201).json({ msg: "created event successfully" });
+    alert("created event successfully");
+    return res.redirect("admin");
   } catch (e) {
     res.status(500).json({ error: e });
   }
@@ -168,8 +172,8 @@ app.post("/shakalakaboomboom/edit/:id", async (req, res) => {
     if (!updated) {
       return res.status(404).json("event not found");
     }
-
-    res.json({ msg: "Event updated", updated });
+    alert("Event updated");
+    res.redirect("admin");
   } catch (e) {
     console.error(e);
     res.status(500).json({ msg: "Internal server error" });
@@ -187,13 +191,13 @@ app.post("/shakalakaboomboom/delete/:id", async (req, res) => {
   if (!deleted) {
     return res.status(404).json({ msg: "Event not found" });
   }
-  res.json({ msg: "Event deleted", deleted });
+  alert("Event deleted");
+  res.redirect("admin");
 });
 
 // event search - case in-sensitive and with regular expressions
 app.get("/search", async (req, res) => {
   const query = req.query.q;
-
   const events = await Event.find({
     name: { $regex: query, $options: "i" },
   });
@@ -201,7 +205,7 @@ app.get("/search", async (req, res) => {
   if (events.length === 0) {
     return res.status(404).json({ msg: "No events found" });
   }
-  return res.json(events);
+  return res.render("events", {events, query});
 });
 
 app.listen(PORT, () => {
