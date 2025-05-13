@@ -27,9 +27,9 @@ env.addFilter("toIST", (utcTimeStr) => {
   const date = new Date(utcTimeStr);
   return date.toLocaleString("en-IN", {
     timeZone: "Asia/Kolkata",
-    hour: '2-digit',
-    minute: '2-digit',
-    hour12: false
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
   });
 });
 
@@ -52,11 +52,11 @@ app.get("/", (req, res) => {
 
 app.get("/events", async (req, res) => {
   const events = await Event.find({});
-  const query = ""
+  const query = "";
   events.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
   // console.log(events);
   // events is an array of objects
-  return res.render("events", {events, query});
+  return res.render("events", { events, query });
 });
 
 app.get("/event/:id", async (req, res) => {
@@ -80,7 +80,13 @@ app.get("/miscellaneous", async (req, res) => {
   const misc = await Miscellaneous.find({});
   // console.log(misc);
   // misc is array of objects
-  res.render("miscellaneous", { misc });
+
+  const cleanedMisc = misc.map((item) => ({
+    ...item,
+    _id: item._id.toString(),
+  }));
+
+  res.render("miscellaneous", { misc: cleanedMisc });
 });
 
 app.get("/miscellaneous/:id", async (req, res) => {
@@ -104,7 +110,7 @@ app.get("/webteam", (req, res) => {
 app.get("/shakalakaboomboom", async (req, res) => {
   const events = await Event.find({});
   events.sort((a, b) => new Date(a.startTime) - new Date(b.startTime));
-  res.render("admin", {events});
+  res.render("admin", { events });
 });
 
 // post route for creation
@@ -205,7 +211,7 @@ app.get("/search", async (req, res) => {
   if (events.length === 0) {
     return res.status(404).json({ msg: "No events found" });
   }
-  return res.render("events", {events, query});
+  return res.render("events", { events, query });
 });
 
 app.listen(PORT, () => {

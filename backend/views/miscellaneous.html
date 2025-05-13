@@ -1,4 +1,92 @@
-{% extends "boilerplate.html" %}
-{% block body %}
-    <h1>Hi from miscellaneous</h1>  
+{% extends "boilerplate.html" %} {% block body %}
+<h1>Hi from miscellaneous</h1>
+<div id="map" style="width: 900px; height: 580px"></div>
+
+<script>
+  let coordinates = []
+  let locNames = []
+  let misc = {{ misc | dump | safe }};
+
+  misc.forEach(element => {
+      locNames.push(element._doc.name)
+      coordinates.push([
+        element._doc.location.latitude,
+      element._doc.location.longitude])
+  });
+
+  let userLatLng = null;
+  const coordinate = [12.988754577439247, 80.23507761724024];
+
+  var mapOptions = {
+    center: coordinate,
+    zoom: 16,
+  };
+  var map = new L.map("map", mapOptions);
+
+  var layer = new L.TileLayer(
+    "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+  );
+
+  map.addLayer(layer);
+
+  let routingControl = null;
+
+  // Get user location
+  if ("geolocation" in navigator) {
+    navigator.geolocation.watchPosition(
+      (position) => {
+        userLatLng = [
+          position.coords.latitude,
+          position.coords.longitude,
+        ];
+
+        L.marker(userLatLng)
+          .addTo(map)
+          .bindPopup("You're here!")
+          .openPopup();
+
+        map.setView(userLatLng, 15);
+      },
+      (error) => {
+        console.error("Geolocation error:", error.message);
+      }
+    );
+  }
+
+  let i = 0;
+  coordinates.forEach((e) => {
+
+    var marker = new L.Marker(e);
+
+    var tooltip = L.tooltip({permanent: true}).setLatLng(e).setContent(locNames[i]).addTo(map)
+
+    marker.bindPopup(locNames[i])
+
+    marker.on("click", function () {
+      if (!userLatLng) {
+        alert("User location not available yet.");
+        return;
+      }
+      // Remove previous route if any
+      if (routingControl !== null) {
+        map.removeControl(routingControl);
+      }
+
+      // Create new route
+      routingControl = L.Routing.control({
+        waypoints: [
+          L.latLng(userLatLng[0], userLatLng[1]),
+          L.latLng(e[0], e[1])
+        ],
+        routeWhileDragging: false,
+        show: false
+      }).addTo(map);
+    });
+
+    marker.addTo(map);
+    i++;
+
+  });
+</script>
+
 {% endblock %}
