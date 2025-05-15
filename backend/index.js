@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
 dotenv.config();
+import cors from "cors";
 
 import express from "express";
 import mongoose from "mongoose";
@@ -10,6 +11,7 @@ import nunjucks from "nunjucks";
 
 const app = express();
 
+app.use(cors());
 const MONGO_URI = process.env.MONGODB_URI;
 const PORT = process.env.PORT;
 const secret = process.env.secret;
@@ -77,16 +79,9 @@ app.get("/event/:id", async (req, res) => {
 });
 
 app.get("/miscellaneous", async (req, res) => {
-  const misc = await Miscellaneous.find({});
   // console.log(misc);
   // misc is array of objects
-
-  const cleanedMisc = misc.map((item) => ({
-    ...item,
-    _id: item._id.toString(),
-  }));
-
-  res.render("miscellaneous", { misc: cleanedMisc });
+  res.render("miscellaneous");
 });
 
 app.get("/miscellaneous/:id", async (req, res) => {

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Common Locations</name>
+    <Style id="icon-1502-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1696-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Placemark>
+      <name>NAC- New Academic Complex 1</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.230397,12.9928911,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HSB- Humanities and Sciences Block</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2318035,12.9903705,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RMN- Raman Block</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2323285,12.9889009,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>RJN- Ramanujan Block</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2322525,12.9900496,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CRC - Class Room Complex</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2303441,12.9900553,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Himalaya Lawns</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2359581,12.9867607,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sangam Ground (+Skating Ring)</name>
+      <styleUrl>#icon-1696-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2376841,12.9855045,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sitara (Sports Complex)</name>
+      <styleUrl>#icon-1696-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.230861,12.9880192,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Biotechnology Department (Hall, Seminar)</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2276362,12.9894128,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>KV Grounds</name>
+      <styleUrl>#icon-1696-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.233177,12.9921054,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>SAC- Students Activities Centre</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2377489,12.9893377,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[ICSR & TTJ Auditorium]]></name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.232102,12.9917014,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>OAT- Open Air Theater</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2335357,12.9890256,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>CLT- Central Lecture Theatre</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2321059,12.9896141,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Football Ground</name>
+      <styleUrl>#icon-1696-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2274259,12.9881529,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Basketball Courts</name>
+      <styleUrl>#icon-1696-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2316954,12.9871528,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Volleyball Court 2, IITM</name>
+      <styleUrl>#icon-1696-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2323935,12.9869397,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

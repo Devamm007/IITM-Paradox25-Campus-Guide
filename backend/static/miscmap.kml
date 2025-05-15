@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Miscellaneous Markers</name>
+    <Style id="icon-1899-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Placemark>
+      <name>Café Coffee Day</name>
+      <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2342419,12.9913047,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Usha Cafe</name>
+      <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2339724,12.9901319,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Zaitoon</name>
+      <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2362513,12.9853219,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>ISTHARA Foodcourt</name>
+      <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2358889,12.9871389,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>HDFC Nescafe</name>
+      <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2380181,12.9863621,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prime Mart</name>
+      <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2377429,12.9876026,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Cycle repair shop IITM (Taramani)</name>
+      <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2380239,12.9860875,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Campus Cafe</name>
+      <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2305522,12.9922884,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
