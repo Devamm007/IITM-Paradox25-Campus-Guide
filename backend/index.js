@@ -28,6 +28,8 @@ const env = nunjucks.configure("views", {
 env.addFilter("toIST", (utcTimeStr) => {
   const date = new Date(utcTimeStr);
   return date.toLocaleString("en-IN", {
+    day: "2-digit",
+    month: "2-digit",
     timeZone: "Asia/Kolkata",
     hour: "2-digit",
     minute: "2-digit",
@@ -132,7 +134,7 @@ app.post("/shakalakaboomboom", async (req, res) => {
       organiserEmail: "example@ds.study.iitm.ac.in",
     });
     alert("created event successfully");
-    return res.redirect("admin");
+    return res.redirect("/shakalakaboomboom");
   } catch (e) {
     res.status(500).json({ error: e });
   }
@@ -174,7 +176,7 @@ app.post("/shakalakaboomboom/edit/:id", async (req, res) => {
       return res.status(404).json("event not found");
     }
     alert("Event updated");
-    res.redirect("admin");
+    res.redirect("/shakalakaboomboom");
   } catch (e) {
     console.error(e);
     res.status(500).json({ msg: "Internal server error" });

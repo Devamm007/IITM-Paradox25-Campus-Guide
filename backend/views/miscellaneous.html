@@ -7,7 +7,7 @@
     <div class="col-lg-12">
       <div class="card mb-4">
         <div class="card-header bg-primary text-white">
-          <h2 class="mb-0">Lorem Ipsum</h2>
+          <h2 class="mb-0">Hangouts and misc.</h2>
         </div>
         <div class="card-body p-0">
           <div id="map" style="width: 100%; height: 580px"></div>
@@ -17,114 +17,7 @@
   </div>
 </div>
 
-<script>
-  // Initialize map
-  const coordinate = [12.988754577439247, 80.23507761724024];
-  const map = L.map("map").setView(coordinate, 16);
-
-  // Add OpenStreetMap tiles
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a>',
-  }).addTo(map);
-
-  // Geolocation
-  let userLatLng = null;
-  if ("geolocation" in navigator) {
-    navigator.geolocation.watchPosition(
-      (position) => {
-        userLatLng = [position.coords.latitude, position.coords.longitude];
-        window.userLatLng = userLatLng;
-        
-        if (window.userMarker) {
-          window.userMarker.setLatLng(userLatLng);
-        } else {
-          window.userMarker = L.marker(userLatLng)
-            .addTo(map)
-            .bindPopup(`
-              <div class="text-center">
-                <i class="fas fa-map-marker-alt fa-2x text-primary mb-2"></i>
-                <h6>You're here!</h6>
-              </div>
-            `)
-            .openPopup();
-        }
-        
-        map.setView(userLatLng, 15);
-      },
-      (error) => {
-        console.error("Geolocation error:", error.message);
-        alert("Unable to get your location. Please enable geolocation for directions.");
-      },
-      {
-        enableHighAccuracy: true,
-      }
-    );
-  }
-
-  // Load KML layer
-  const kmlLayer = omnivore.kml('/static/miscmap.kml')
-    .on('ready', function() {
-      map.fitBounds(kmlLayer.getBounds());
-      
-      kmlLayer.eachLayer(function(layer) {
-        if (layer instanceof L.Marker) {
-          const name = layer.feature?.properties?.name || "Unnamed Place";
-          const description = layer.feature?.properties?.description || "No description";
-          
-          layer.setIcon(L.icon({
-            iconUrl: 'https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/images/marker-icon.png',
-            iconSize: [25, 41],
-            iconAnchor: [12, 41],
-            popupAnchor: [1, -34]
-          }));
-          
-          layer.bindTooltip(name, { 
-            permanent: true, 
-            direction: 'top',
-            className: 'kml-label',
-            offset: [0, -20]
-          }).openTooltip();
-          
-          layer.on('click', function() {
-            if (!window.userLatLng) {
-              alert("Please enable geolocation and wait for your location to be detected.");
-              return;
-            }
-            
-            const origin = `${window.userLatLng[0]},${window.userLatLng[1]}`;
-            const destination = `${layer.getLatLng().lat},${layer.getLatLng().lng}`;
-            const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${destination}&travelmode=walking`;
-            
-            layer.bindPopup(`
-              <div class="map-popup">
-                <h6 class="text-primary">${name}</h6>
-                <p class="small">${description}</p>
-                <div class="d-grid gap-2">
-                  <a href="${googleMapsUrl}" target="_blank" class="btn btn-sm btn-primary">
-                    <i class="fas fa-walking me-2"></i>Walking Directions
-                  </a>
-                </div>
-              </div>
-            `).openPopup();
-          });
-        }
-        
-        if (layer instanceof L.Polygon || layer instanceof L.Polyline) {
-          layer.setStyle({
-            color: '#3388ff',
-            weight: 3,
-            opacity: 0.7,
-            fillOpacity: 0.2
-          });
-        }
-      });
-    })
-    .on('error', function(e) {
-      console.error("KML Error:", e.error);
-      alert("Failed to load map data. Please try again later.");
-    })
-    .addTo(map);
-</script>
+<script src="/static/js/miscellaneous.js"></script>
 
 <style>
   .kml-label {
@@ -135,21 +28,6 @@
     border-radius: 4px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     border: 1px solid #ddd;
-  }
-  
-  .map-popup {
-    min-width: 200px;
-  }
-  
-  .map-popup h6 {
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-  }
-  
-  .map-popup p.small {
-    font-size: 0.85rem;
-    color: #666;
-    margin-bottom: 0.75rem;
   }
   
   .leaflet-popup-content {

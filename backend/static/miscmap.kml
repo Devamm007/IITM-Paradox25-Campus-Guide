@@ -15,76 +15,103 @@
         <text><![CDATA[<h3>$[name]</h3>]]></text>
       </BalloonStyle>
     </Style>
+    
     <Placemark>
       <name>Café Coffee Day</name>
+      <description><![CDATA[
+        <img src="/static/misc_photos/ccd.jpg" style="width: 100%; height: auto; display: block; border-radius: inherit;">
+      ]]></description>
       <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
       <Point>
-        <coordinates>
-          80.2342419,12.9913047,0
-        </coordinates>
+        <coordinates>80.2342419,12.9913047,0</coordinates>
       </Point>
     </Placemark>
+    
     <Placemark>
       <name>Usha Cafe</name>
+      <description><![CDATA[
+        <img src="/static/misc_photos/ushacafe.jpg" style="width: 100%; height: auto; display: block; border-radius: inherit;">
+      ]]></description>
       <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
       <Point>
-        <coordinates>
-          80.2339724,12.9901319,0
-        </coordinates>
+        <coordinates>80.2339724,12.9901319,0</coordinates>
       </Point>
     </Placemark>
+    
     <Placemark>
       <name>Zaitoon</name>
+      <description><![CDATA[
+        <img src="/static/misc_photos/zaitoon.jpg" style="width: 100%; height: auto; display: block; border-radius: inherit;">
+      ]]></description>
       <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
       <Point>
-        <coordinates>
-          80.2362513,12.9853219,0
-        </coordinates>
+        <coordinates>80.2362513,12.9853219,0</coordinates>
       </Point>
     </Placemark>
+    
     <Placemark>
       <name>ISTHARA Foodcourt</name>
+      <description><![CDATA[
+        <img src="/static/misc_photos/ishthara.jpg" style="width: 100%; height: auto; display: block; border-radius: inherit;">
+      ]]></description>
       <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
       <Point>
-        <coordinates>
-          80.2358889,12.9871389,0
-        </coordinates>
+        <coordinates>80.2358889,12.9871389,0</coordinates>
       </Point>
     </Placemark>
+    
     <Placemark>
       <name>HDFC Nescafe</name>
+      <description><![CDATA[
+        <img src="/static/misc_photos/nescafe.jpg" style="width: 100%; height: auto; display: block; border-radius: inherit;">
+      ]]></description>
       <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
       <Point>
-        <coordinates>
-          80.2380181,12.9863621,0
-        </coordinates>
+        <coordinates>80.2380181,12.9863621,0</coordinates>
       </Point>
     </Placemark>
+    
     <Placemark>
       <name>Prime Mart</name>
+      <description><![CDATA[
+        <img src="/static/misc_photos/prime_mart.jpg" style="width: 100%; height: auto; display: block; border-radius: inherit;">
+      ]]></description>
       <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
       <Point>
-        <coordinates>
-          80.2377429,12.9876026,0
-        </coordinates>
+        <coordinates>80.2377429,12.9876026,0</coordinates>
       </Point>
     </Placemark>
+    
     <Placemark>
       <name>Cycle repair shop IITM (Taramani)</name>
+      <description><![CDATA[
+        <img src="/static/misc_photos/iitm_taramani_cycle_repair.jpg" style="width: 100%; height: auto; display: block; border-radius: inherit;">
+      ]]></description>
       <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
       <Point>
-        <coordinates>
-          80.2380239,12.9860875,0
-        </coordinates>
+        <coordinates>80.2380239,12.9860875,0</coordinates>
       </Point>
     </Placemark>
+    
     <Placemark>
       <name>Campus Cafe</name>
+      <description><![CDATA[
+        <img src="/static/misc_photos/campuscafe.jpg" style="width: 100%; height: auto; display: block; border-radius: inherit;">
+      ]]></description>
       <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
       <Point>
-        <coordinates>
-          80.2305522,12.9922884,0
-        </coordinates>
+        <coordinates>80.2305522,12.9922884,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>ICICI Cream Stone</name>
+      <description><![CDATA[
+        <img src="/static/misc_photos/creamstone.jpg" style="width: 100%; height: auto; display: block; border-radius: inherit;">
+      ]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>80.2327942,12.9847718,0</coordinates>
       </Point>
     </Placemark>
   </Document>
