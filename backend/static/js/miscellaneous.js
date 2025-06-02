@@ -69,7 +69,10 @@ const kmlLayer = omnivore.kml('/static/miscmap.kml')
         
         // Add click handler for directions button
         layer.on('popupopen', function(e) {
-        if (!window.userLatLng) return;
+        if (!window.userLatLng) {
+                alert("Please enable geolocation and wait for your location to be detected.");
+                return;
+            }
         
         const destination = `${layer.getLatLng().lat},${layer.getLatLng().lng}`;
         const origin = `${window.userLatLng[0]},${window.userLatLng[1]}`;

@@ -25,10 +25,16 @@
                   {{event.startTime|toIST}} to {{event.endTime|toIST}}
                 </p>
                 {% for location in event.locations %}
-                <p class="small mb-1">
-                  <i class="fas fa-map-marker-alt mr-1"></i>
-                  {{location.name}}
-                </p>
+                <div class="p-3 border-bottom event-item" data-location="{{location.name}}">
+                  <p class="small mb-1">
+                    <i class="fas fa-map-marker-alt mr-1"></i>
+                    {{location.name}}
+                  </p>
+                  <button class="btn btn-sm btn-primary directions-btn" 
+                          data-coords="{{location.coords}}">
+                    <i class="fas fa-walking"></i> Directions
+                  </button>
+                </div>
                 {% endfor %}
               </div>
               {% endfor %}
@@ -63,9 +69,23 @@
     font-size: 12px;
     font-weight: bold;
     background: white;
-    padding: 3px 6px;
+    padding: 4px 8px;
     border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border: 1px solid #ddd;
+  }
+  
+  .leaflet-popup-content {
+    margin: 12px;
+  }
+  
+  .card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  }
+  .card-header {
+    padding: 1rem 1.25rem;
   }
   .card-body::-webkit-scrollbar {
     width: 8px;

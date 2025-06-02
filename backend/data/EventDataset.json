@@ -569,7 +569,7 @@
     "endTime": "2025-06-05T05:00:00Z",
     "locations": [
       {
-        "name": "Classroom",
+        "name": "CRC",
         "latitude": 0,
         "longitude": 0
       },
@@ -691,7 +691,7 @@
     "endTime": "2025-06-05T14:30:00Z",
     "locations": [
       {
-        "name": "Classroom",
+        "name": "CRC",
         "latitude": 0,
         "longitude": 0
       }
@@ -1076,7 +1076,7 @@
     "endTime": "2025-06-06T05:30:00Z",
     "locations": [
       {
-        "name": "Classroom",
+        "name": "CRC",
         "latitude": 0,
         "longitude": 0
       }
@@ -1203,7 +1203,7 @@
     "endTime": "2025-06-06T14:00:00Z",
     "locations": [
       {
-        "name": "Classroom",
+        "name": "CRC",
         "latitude": 0,
         "longitude": 0
       }
@@ -1451,7 +1451,7 @@
     "endTime": "2025-06-07T07:30:00Z",
     "locations": [
       {
-        "name": "Classroom with Projector",
+        "name": "CRC with Projector",
         "latitude": 0,
         "longitude": 0
       }
@@ -1746,7 +1746,7 @@
     "endTime": "2025-06-04T10:30:00Z",
     "locations": [
       {
-        "name": "Classroom",
+        "name": "CRC",
         "latitude": 0,
         "longitude": 0
       }
