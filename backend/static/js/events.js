@@ -89,7 +89,7 @@ const kmlLayer = omnivore.kml('/static/eventsmap.kml')
                 
                 const destination = `${layer.getLatLng().lat},${layer.getLatLng().lng}`;
                 const origin = `${window.userLatLng[0]},${window.userLatLng[1]}`;
-                const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${origin}&destination=${destination}&travelmode=walking`;
+                const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`;
                 
                 document.getElementById('directionBtn').addEventListener('click', function(e) {
                     e.preventDefault();
@@ -131,52 +131,3 @@ document.querySelectorAll('.event-item').forEach(item => {
     });
   });
 });
-
-// Geolocation
-let userLatLng = null;
-if ("geolocation" in navigator) {
-    navigator.geolocation.watchPosition(
-        (position) => {
-            userLatLng = [position.coords.latitude, position.coords.longitude];
-            window.userLatLng = userLatLng;
-
-            const userIcon = L.divIcon({
-                html: '<i class="fas fa-male" style="color: #000000; font-size:30px;"></i>',
-                className: 'custom-leaflet-icon',
-                iconSize: [24, 24],
-                iconAnchor: [12, 12],
-                popupAnchor: [0, -12]
-            });
-            
-            if (window.userMarker) {
-                window.userMarker.setLatLng(userLatLng);
-            } else {
-                window.userMarker = L.marker(userLatLng, {
-                    icon: userIcon
-                })
-                .addTo(map)
-                .bindPopup(`
-                    <div class="text-center">
-                        <p>You're here!</p>
-                    </div>
-                `, {
-                    autoClose: false,
-                    closeOnClick: false,
-                    closeButton: false
-                })
-                .openPopup();
-            }
-            
-            if (!userMovedMap) {
-                map.setView(userLatLng, 16);
-            }
-        },
-        (error) => {
-            console.error("Geolocation error:", error.message);
-            alert("Unable to get your location. Please enable geolocation for directions.");
-        },
-        {
-            enableHighAccuracy: true,
-        }
-    );
-}
