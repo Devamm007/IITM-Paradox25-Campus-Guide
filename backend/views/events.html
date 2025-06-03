@@ -25,16 +25,14 @@
                   {{event.documentLink}}:{{event.startTime}} to {{event.endTime}}
                 </p>
                 {% for location in event.locations %}
-                <div class="p-3 border-bottom event-item" data-location="{{location.name}}">
-                  <p class="small mb-1">
-                    <i class="fas fa-map-marker-alt mr-1"></i>
-                    {{location.name}}
-                  </p>
-                  <button class="btn btn-sm btn-primary directions-btn" 
-                          data-coords="{{location.coords}}">
-                    <i class="fas fa-walking"></i> Directions
-                  </button>
-                </div>
+                <p class="small mb-1">
+                  <i class="fas fa-map-marker-alt mr-1"></i>
+                  {{location.name}}
+                </p>
+                <button class="btn btn-sm btn-primary directions-btn" 
+                          data-coords="{{location.latitude}},{{location.longitude}}">
+                    <a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination={{location.latitude}},{{location.longitude}}&travelmode=walking" style="color: #ffffff"><i class="fas fa-walking"></i> Directions</a>
+                </button>
                 {% endfor %}
               </div>
               {% endfor %}
@@ -53,7 +51,7 @@
                 </p>
                 <button class="btn btn-sm btn-primary directions-btn" 
                           data-coords="{{location.latitude}},{{location.longitude}}">
-                    <i class="fas fa-walking"></i> Directions
+                    <a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination={{location.latitude}},{{location.longitude}}&travelmode=walking"><i class="fas fa-walking"></i> Directions</a>
                 </button>
                 {% endfor %}
               </div>

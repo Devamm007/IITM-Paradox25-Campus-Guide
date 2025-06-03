@@ -69,32 +69,12 @@ const kmlLayer = omnivore.kml('/static/eventsmap.kml')
             // Create popup content without the URL initially
             layer.bindPopup(`
                 <b>${name}</b><br>
-                <div style="max-width: 100%; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 8px 0;">
-                    ${description}
-                </div>
-                <a href="#" class="btn btn-primary btn-sm mt-2" style="color: #ffffff" id="directionBtn">
+                <a href="#" class="btn btn-primary btn-sm mt-2" style="color: #ffffff" id="directionBtn" data-location="${name}">
                     <i class="fas fa-walking mr-1"></i> Get Walking Directions
                 </a>
             `, {
                 maxWidth: 300,
                 minWidth: 200
-            });
-            
-            // Add click handler for directions button
-            layer.on('popupopen', function(e) {
-                if (!window.userLatLng) {
-                    alert("Please enable geolocation and wait for your location to be detected.");
-                    return;
-                }
-                
-                const destination = `${layer.getLatLng().lat},${layer.getLatLng().lng}`;
-                const origin = `${window.userLatLng[0]},${window.userLatLng[1]}`;
-                const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`;
-                
-                document.getElementById('directionBtn').addEventListener('click', function(e) {
-                    e.preventDefault();
-                    window.open(googleMapsUrl, '_blank');
-                });
             });
         }
         
@@ -112,6 +92,23 @@ const kmlLayer = omnivore.kml('/static/eventsmap.kml')
     map.on('click', function() {
         map.closePopup();
     });
+    
+    // Use event delegation for direction buttons
+    document.addEventListener('click', function(e) {
+        if (e.target && e.target.id === 'directionBtn') {
+            e.preventDefault();
+            const locationName = e.target.dataset.location;
+            
+            // Find the layer with this location name
+            kmlLayer.eachLayer(layer => {
+                if (layer.feature?.properties?.name === locationName) {
+                    const destination = `${layer.getLatLng().lat},${layer.getLatLng().lng}`;
+                    const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${destination}&travelmode=walking`;
+                    window.open(googleMapsUrl);
+                }
+            });
+        }
+    });
 })
 .on('error', function(e) {
     console.error("KML Error:", e.error);
@@ -120,14 +117,14 @@ const kmlLayer = omnivore.kml('/static/eventsmap.kml')
 .addTo(map);
 
 document.querySelectorAll('.event-item').forEach(item => {
-  item.addEventListener('click', function() {
-    const locationName = this.dataset.location;
-    
-    kmlLayer.eachLayer(layer => {
-      if (layer.feature?.properties?.name === locationName) {
-        map.setView(layer.getLatLng(), 16);
-        layer.openPopup();
-      }
+    item.addEventListener('click', function() {
+        const locationName = this.dataset.location;
+        
+        kmlLayer.eachLayer(layer => {
+            if (layer.feature?.properties?.name === locationName) {
+                map.setView(layer.getLatLng(), 16);
+                layer.openPopup();
+            }
+        });
     });
-  });
 });
