@@ -8,6 +8,7 @@ import mongoose from "mongoose";
 import Event from "./models/event.js";
 import Miscellaneous from "./models/miscellaneous.js";
 import nunjucks from "nunjucks";
+import path from 'path';
 
 const app = express();
 
@@ -16,14 +17,25 @@ const MONGO_URI = process.env.MONGODB_URI;
 const PORT = process.env.PORT;
 const secret = process.env.secret;
 
+app.use('/static', express.static(path.join(__dirname + '/static')));
 app.set("view engine", "html");
 
-const env = nunjucks.configure("views", {
+import path from 'path';
+
+const env = nunjucks.configure(path.join(__dirname, 'views'), {
   express: app,
   autoescape: true,
-  watch: true, // This is the key option - watches for template changes
-  noCache: true, // Disable caching in development
+  watch: process.env.NODE_ENV === 'development', // Disable in production
+  noCache: process.env.NODE_ENV !== 'production' // Enable cache in production
 });
+
+
+// const env = nunjucks.configure("views", {
+//   express: app,
+//   autoescape: true,
+//   watch: true, // This is the key option - watches for template changes
+//   noCache: true, // Disable caching in development
+// });
 
 app.use(express.urlencoded({ extended: false }));
 app.use("/static", express.static("static"));
@@ -38,10 +50,8 @@ mongoose
     console.log("Error connecting MongoDB" + e);
   });
 
-app.get("/", async (req, res) => {
-  const events = await Event.find({});
-  return res.send(events);
-  // return res.render("home");
+app.get("/", (req, res) => {
+  return res.render("home");
 });
 
 app.get("/events", async (req, res) => {
