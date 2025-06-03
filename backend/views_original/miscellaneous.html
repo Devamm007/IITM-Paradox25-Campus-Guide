@@ -1,0 +1,48 @@
+{% extends "boilerplate.html" %}
+{% block body %}
+
+<div class="container-fluid mt-3">
+  <div class="row">
+    <!-- Main Content Column -->
+    <div class="col-lg-12">
+      <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+          <h2 class="mb-0">Hangouts and misc.</h2>
+        </div>
+        <div class="card-body p-0">
+          <div id="map" style="width: 100%; height: 580px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/static/js/miscellaneous.js"></script>
+
+<style>
+  .kml-label {
+    font-size: 12px;
+    font-weight: bold;
+    background: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border: 1px solid #ddd;
+  }
+  
+  .leaflet-popup-content {
+    margin: 12px;
+  }
+  
+  .card {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  }
+  
+  .card-header {
+    padding: 1rem 1.25rem;
+  }
+</style>
+
+{% endblock %}

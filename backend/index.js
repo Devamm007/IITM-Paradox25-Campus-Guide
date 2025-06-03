@@ -42,14 +42,6 @@ const env = nunjucks.configure(path.join(__dirname, 'views'), {
   noCache: process.env.NODE_ENV !== 'production' // Enable cache in production
 });
 
-
-// const env = nunjucks.configure("views", {
-//   express: app,
-//   autoescape: true,
-//   watch: true, // This is the key option - watches for template changes
-//   noCache: true, // Disable caching in development
-// });
-
 app.use(express.urlencoded({ extended: false }));
 app.use("/static", express.static("static"));
 
@@ -76,40 +68,10 @@ app.get("/events", async (req, res) => {
   return res.render("events", { events, query });
 });
 
-app.get("/event/:id", async (req, res) => {
-  const id = req.params.id;
-  // console.log(id);
-  if (!mongoose.Types.ObjectId.isValid(id)) {
-    return res.json({
-      msg: "Give valid id",
-    });
-  }
-  const event = await Event.findOne({ _id: id });
-  if (!event) {
-    return res.send("wrong id passed");
-  }
-  // console.log(event);
-  // event is a object
-  return res.send("hello from /event/id");
-});
-
 app.get("/miscellaneous", async (req, res) => {
   // console.log(misc);
   // misc is array of objects
   res.render("miscellaneous");
-});
-
-app.get("/miscellaneous/:id", async (req, res) => {
-  const id = req.params.id;
-  if (!mongoose.Types.ObjectId.isValid(id)) {
-    return res.send("wrong id passed");
-  }
-  const misc = await Miscellaneous.findById(id);
-  if (!misc) {
-    return res.send("wrong id passed");
-  }
-  // console.log(misc);
-  return res.send("hi from /misc/:id");
 });
 
 app.get("/webteam", (req, res) => {
@@ -211,6 +173,7 @@ app.post("/shakalakaboomboom/delete/:id", async (req, res) => {
   res.redirect("admin");
 });
 
+
 // event search - case in-sensitive and with regular expressions
 app.get("/search", async (req, res) => {
   const query = req.query.q;
@@ -218,11 +181,14 @@ app.get("/search", async (req, res) => {
     name: { $regex: query, $options: "i" },
   });
 
-  if (events.length === 0) {
-    return res.status(404).json({ msg: "No events found" });
+  if (Object.keys(events).length > 0) {
+    return res.render("events", { events, query });
   }
-  return res.render("events", { events, query });
+  const f = "true"
+  return res.render("events", {events, f});
 });
+
+
 
 app.listen(PORT, () => {
   console.log("server listening on port 8000");

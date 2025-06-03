@@ -1,58 +1,87 @@
 {% extends "boilerplate.html" %}
 {% block body %}
-
 <div class="container-fluid mt-3">
-  <div class="row">
+  <div class="d-block d-lg-none mb-3">
+    <form action="/search" method="get" class="input-group">
+      <input
+        class="form-control rounded-pill"
+        id="q"
+        name="q"
+        type="search"
+        placeholder="Search events..."
+        aria-label="Search Events"
+      />
+      <button class="btn btn-primary rounded-pill ms-2" type="submit">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+  </div>
+  <div class="row g-3">
     <!-- Map Column -->
-    <div class="col-md-8 mb-2">
-      <div class="card-body" id="map" style="border-radius: 0.375rem; width: 100%; height: 380px">Click on markers to get directions</div>
+    <div class="col-lg-8 order-lg-1 order-2">
+      <div class="card">
+        <div class="card-body p-0">
+          <div id="map" style="width: 100%; height: 400px; border-radius: 0.375rem;"></div>
+        </div>
+      </div>
     </div>
     
     <!-- Events List Column -->
-    <div class="col-md-4">
-      <div class="card" style="height: 380px;">
+    <div class="col-lg-4 order-lg-2 order-1" style="max-height: 300px;">
+      <div class="card h-100">
         <div class="card-header bg-primary text-white">
           <h5 class="mb-0">Event Details</h5>
         </div>
         <div class="card-body p-0">
-          <div style="height: 330px; overflow-y: auto;">
+          <div style="height: 250px; overflow-y: auto;">
             {% if query %}
               {% for event in events %}
-              <div class="p-3 border-bottom">
+              <div class="p-3 border-bottom event-item">
                 <h6 class="text-primary">{{event.name}}</h6>
                 <p class="small mb-1">
-                  <i class="far fa-clock mr-1"></i>
+                  <i class="far fa-clock me-1"></i>
                   {{event.documentLink}}:{{event.startTime}} to {{event.endTime}}
                 </p>
                 {% for location in event.locations %}
-                <p class="small mb-1">
-                  <i class="fas fa-map-marker-alt mr-1"></i>
-                  {{location.name}}
-                </p>
-                <button class="btn btn-sm btn-primary directions-btn" 
-                          data-coords="{{location.latitude}},{{location.longitude}}">
-                    <a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination={{location.latitude}},{{location.longitude}}&travelmode=walking" style="color: #ffffff"><i class="fas fa-walking"></i> Directions</a>
-                </button>
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <p class="small mb-0">
+                    <i class="fas fa-map-marker-alt me-1"></i>
+                    {{location.name}}
+                  </p>
+                  <a class="btn btn-sm btn-primary" 
+                     href="https://www.google.com/maps/dir/?api=1&destination={{location.latitude}},{{location.longitude}}&travelmode=walking"
+                     target="_blank">
+                    <i class="fas fa-walking me-1"></i> Directions
+                  </a>
+                </div>
                 {% endfor %}
               </div>
               {% endfor %}
             {% else %}
+              {% if f %}
+                <div id="f{{f}}" class="p-3">
+                  <p>Event not found!</p>
+                </div>
+              {% endif %}
               {% for event in events %}
-              <div class="p-3 border-bottom">
+              <div class="p-3 border-bottom event-item">
                 <h6 class="text-primary">{{event.name}}</h6>
                 <p class="small mb-1">
-                  <i class="far fa-clock mr-1"></i>
+                  <i class="far fa-clock me-1"></i>
                   {{event.documentLink}}:{{event.startTime}} to {{event.endTime}}
                 </p>
                 {% for location in event.locations %}
-                <p class="small mb-1">
-                  <i class="fas fa-map-marker-alt mr-1"></i>
-                  {{location.name}}
-                </p>
-                <button class="btn btn-sm btn-primary directions-btn" 
-                          data-coords="{{location.latitude}},{{location.longitude}}">
-                    <a target="_blank" href="https://www.google.com/maps/dir/?api=1&destination={{location.latitude}},{{location.longitude}}&travelmode=walking"><i class="fas fa-walking"></i> Directions</a>
-                </button>
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                  <p class="small mb-0">
+                    <i class="fas fa-map-marker-alt me-1"></i>
+                    {{location.name}}
+                  </p>
+                  <a class="btn btn-sm btn-primary" 
+                     href="https://www.google.com/maps/dir/?api=1&destination={{location.latitude}},{{location.longitude}}&travelmode=walking"
+                     target="_blank">
+                    <i class="fas fa-walking me-1"></i> Directions
+                  </a>
+                </div>
                 {% endfor %}
               </div>
               {% endfor %}
@@ -67,41 +96,19 @@
 <script src="/static/js/events.js"></script>
 
 <style>
-  .kml-label {
-    font-size: 12px;
-    font-weight: bold;
-    background: white;
-    padding: 4px 8px;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    border: 1px solid #ddd;
+  .event-item {
+    transition: background-color 0.2s;
   }
-  
-  .leaflet-popup-content {
-    margin: 12px;
+  .event-item:hover {
+    background-color: rgba(33, 150, 243, 0.1);
   }
-  
-  .card {
-    border-radius: 0.5rem;
-    overflow: hidden;
-    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  #map {
+    min-height: 300px;
   }
-  .card-header {
-    padding: 1rem 1.25rem;
-  }
-  .card-body::-webkit-scrollbar {
-    width: 8px;
-  }
-  .card-body::-webkit-scrollbar-track {
-    background: #f1f1f1;
-  }
-  .card-body::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 4px;
-  }
-  .card-body::-webkit-scrollbar-thumb:hover {
-    background: #555;
+  @media (min-width: 992px) {
+    #map {
+      height: 400px;
+    }
   }
 </style>
-
 {% endblock %}

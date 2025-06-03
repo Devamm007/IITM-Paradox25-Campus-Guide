@@ -2,15 +2,15 @@
 {% block body %}
 <div class="container-fluid mt-3">
   <div class="row justify-content-center">
-    <div class="col-lg-8 col-md-10">
+    <div class="col-12 col-lg-8 col-md-10">
       <!-- Hero Section -->
       <div class="card mb-4 text-center">
-        <div class="card-body py-5">
-          <h1 class="display-4 mb-3">Welcome to Paradox 2025 Guide</h1>
-          <p class="lead">
+        <div class="card-body py-4 py-md-5">
+          <h1 class="display-5 display-md-4 mb-3">Welcome to Paradox 2025 Guide</h1>
+          <p class="lead mb-4">
             Your comprehensive navigation companion for IIT Madras campus events and hangout spots
           </p>
-          <div class="d-flex justify-content-center gap-3 mt-4">
+          <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
             <a href="/events" class="btn btn-primary btn-lg px-4">
               <i class="fas fa-calendar-alt me-2"></i>Events
             </a>
@@ -22,43 +22,43 @@
       </div>
 
       <!-- Features Section -->
-      <div class="row">
-        <div class="col-md-4 mb-4">
+      <div class="row g-3">
+        <div class="col-12 col-md-4 mb-3">
           <div class="card h-100">
             <div class="card-body">
               <div class="text-center mb-3">
                 <i class="fas fa-map-marked-alt fa-3x text-primary"></i>
               </div>
               <h3 class="h5 text-center">Interactive Maps</h3>
-              <p class="text-center">
+              <p class="text-center mb-0">
                 Find all event locations and hangout spots with real-time directions
               </p>
             </div>
           </div>
         </div>
         
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-4 mb-3">
           <div class="card h-100">
             <div class="card-body">
               <div class="text-center mb-3">
                 <i class="fas fa-clock fa-3x text-primary"></i>
               </div>
               <h3 class="h5 text-center">Event Schedule</h3>
-              <p class="text-center">
+              <p class="text-center mb-0">
                 View upcoming events sorted by time with location details
               </p>
             </div>
           </div>
         </div>
         
-        <div class="col-md-4 mb-4">
+        <div class="col-12 col-md-4 mb-3">
           <div class="card h-100">
             <div class="card-body">
               <div class="text-center mb-3">
                 <i class="fas fa-location-arrow fa-3x text-primary"></i>
               </div>
               <h3 class="h5 text-center">Get Directions</h3>
-              <p class="text-center">
+              <p class="text-center mb-0">
                 One-click walking directions from your current location
               </p>
             </div>
@@ -67,7 +67,7 @@
       </div>
 
       <!-- Quick Search -->
-      <div class="card">
+      <div class="card mt-3">
         <div class="card-body text-center py-4">
           <h2 class="h4 mb-3">Find Events</h2>
           <form action="/search" class="d-flex justify-content-center">
@@ -99,8 +99,13 @@
     box-shadow: 0 10px 20px rgba(33, 150, 243, 0.15) !important;
   }
   .lead {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     color: var(--accent-blue-light);
+  }
+  @media (min-width: 768px) {
+    .lead {
+      font-size: 1.25rem;
+    }
   }
 </style>
 {% endblock %}
