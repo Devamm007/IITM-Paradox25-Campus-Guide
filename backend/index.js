@@ -7,8 +7,8 @@ import mongoose from "mongoose";
 
 import Event from "./models/event.js";
 import Miscellaneous from "./models/miscellaneous.js";
-import nunjucks from "nunjucks";
-import path from 'path';
+// import nunjucks from "nunjucks";
+// import path from 'path';
 
 const app = express();
 
@@ -17,10 +17,23 @@ const MONGO_URI = process.env.MONGODB_URI;
 const PORT = process.env.PORT;
 const secret = process.env.secret;
 
-app.use('/static', express.static(path.join(__dirname + '/static')));
 app.set("view engine", "html");
 
-import path from 'path';
+import nunjucks from "nunjucks";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+app.use('/static', express.static(path.join(__dirname + '/static')));
+nunjucks.configure(path.join(__dirname, "views"), {
+  express: app,
+  autoescape: true,
+  watch: true,
+  noCache: true,
+});
+
 
 const env = nunjucks.configure(path.join(__dirname, 'views'), {
   express: app,
