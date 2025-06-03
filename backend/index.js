@@ -39,7 +39,8 @@ mongoose
   });
 
 app.get("/", (req, res) => {
-  return res.render("home");
+  return res.send("<h1>Hello</h1>");
+  // return res.render("home");
 });
 
 app.get("/events", async (req, res) => {
