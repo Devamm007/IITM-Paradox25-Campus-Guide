@@ -38,8 +38,9 @@ mongoose
     console.log("Error connecting MongoDB" + e);
   });
 
-app.get("/", (req, res) => {
-  return res.send("<h1>Hello</h1>");
+app.get("/", async (req, res) => {
+  const events = await Event.find({});
+  return res.send(events);
   // return res.render("home");
 });
 
