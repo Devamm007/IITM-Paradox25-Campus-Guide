@@ -1,1757 +1,1948 @@
 [
   {
-    "name": "Odoo Hackathon Inauguration",
-    "startTime": "2025-06-04T02:30:00Z",
-    "endTime": "2025-06-04T04:00:00Z",
+    "name": "Chaser's League Trials (Men)",
+    "startTime": "17:00",
+    "endTime": "18:00",
     "locations": [
       {
-        "name": "TTJ",
-        "latitude": 0,
-        "longitude": 0
+        "name": "KV",
+        "latitude": 12.9921054,
+        "longitude": 80.233177
       }
     ],
-    "documentLink": "https://docs.google.com/document/d/1RjWopMyy9UyfZFxuJB0Aa8oTrH8qcGAmhwx64hE-TNY/edit?tab=t.0",
-    "organiserEmail": "https://www.odoo.com/event/odoo-x-paradox-iit-madras-7880/register"
+    "documentLink": "3rd June",
+    "organiserEmail": ""
   },
   {
-    "name": "50 Ka Funda 2.0",
-    "startTime": "2025-06-04T05:30:00Z",
-    "endTime": "2025-06-04T08:00:00Z",
+    "name": "Chaser's League Trials (Women)",
+    "startTime": "18:00",
+    "endTime": "19:00",
     "locations": [
       {
-        "name": "ICSR Room 3",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "CRC 101",
-        "latitude": 0,
-        "longitude": 0
+        "name": "KV",
+        "latitude": 12.9921054,
+        "longitude": 80.233177
       }
     ],
-    "documentLink": "https://docs.google.com/document/d/1S3X64S5KLJth9n5U_qful1fej9f4o9h4PpXc9nrnYHM/edit?usp=sharing",
-    "organiserEmail": "https://www.instagram.com/business.io.iitmbs/"
-  },
-  {
-    "name": "ParaVerse 3.0",
-    "startTime": "2025-06-04T08:30:00Z",
-    "endTime": "2025-06-04T11:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 3",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "CRC 102",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1JUfPrzxCuaGgAl9-M368vijGgLVNYdUG5BbFHvmmk_Q/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "RoboSoccer 3.0",
-    "startTime": "2025-06-04T03:30:00Z",
-    "endTime": "2025-06-04T12:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 4",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1x6mBG_yM_4Plys1tsOAWSkgvZyQojr4EFJdCFJAQw6Q/edit?usp=sharing",
-    "organiserEmail": "https://sites.google.com/view/robosoccer/participate/robot-configurator"
-  },
-  {
-    "name": "Python Coding Challenge 4.0",
-    "startTime": "2025-06-04T04:30:00Z",
-    "endTime": "2025-06-04T07:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 103",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1IfROnUM2y_6cf-8lkXWsjmbyTrMtbeF2zwD1pzbUxIo/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Madras Talks: Odoo Director",
-    "startTime": "2025-06-04T10:00:00Z",
-    "endTime": "2025-06-04T11:30:00Z",
-    "locations": [
-      {
-        "name": "TTJ",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "ICSR Room 2",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1RjWopMyy9UyfZFxuJB0Aa8oTrH8qcGAmhwx64hE-TNY/edit?tab=t.0",
-    "organiserEmail": "https://www.odoo.com/event/odoo-x-paradox-iit-madras-7880/register"
-  },
-  {
-    "name": "QuantQuest",
-    "startTime": "2025-06-04T04:30:00Z",
-    "endTime": "2025-06-04T07:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 202",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "ICSR Room 2",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1TmIwqLpoozXmOE0buaqYRjzGHYSew6Qa_zGOxNrLuWY/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Capitol Conclave",
-    "startTime": "2025-06-04T03:30:00Z",
-    "endTime": "2025-06-04T05:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 201",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://drive.google.com/file/d/1IDMlLJoZ8-iGqR5GPxy_5OVK_DKhkFti/view?usp=drivesdk",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Interhouse",
-    "startTime": "2025-06-04T06:00:00Z",
-    "endTime": "2025-06-04T09:00:00Z",
-    "locations": [
-      {
-        "name": "CRC (Ground Floor)",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Pre-PROM",
-    "startTime": "2025-06-04T10:00:00Z",
-    "endTime": "2025-06-04T11:00:00Z",
-    "locations": [
-      {
-        "name": "SAC",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "PROM NIGHT",
-    "startTime": "2025-06-04T12:30:00Z",
-    "endTime": "2025-06-04T16:30:00Z",
-    "locations": [
-      {
-        "name": "SAC",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "CC Terrace",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Kathalok",
-    "startTime": "2025-06-04T03:30:00Z",
-    "endTime": "2025-06-04T06:00:00Z",
-    "locations": [
-      {
-        "name": "CRC 203",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/14thfPSXD1xuu7zE4DlRMcZV_dEOD-3rVZ4emH0Yfw-s/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Dhrishtikon",
-    "startTime": "2025-06-04T06:30:00Z",
-    "endTime": "2025-06-04T09:00:00Z",
-    "locations": [
-      {
-        "name": "CRC 203",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "D2D",
-    "startTime": "2025-06-04T09:00:00Z",
-    "endTime": "2025-06-04T12:00:00Z",
-    "locations": [
-      {
-        "name": "CRC (3 rooms needed)",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://vish2borganized.notion.site/Dream2Dance-4-0-Rules-Guidelines-1dca0887b1be81428cf5ee81a0e5f623",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "3rd June",
+    "organiserEmail": ""
   },
   {
     "name": "Paradox Premier League 2.0 Trials",
-    "startTime": "2025-06-03T11:30:00Z",
-    "endTime": "2025-06-03T13:00:00Z",
+    "startTime": "17:00",
+    "endTime": "18:30",
     "locations": [
       {
         "name": "Sangam Ground",
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
       }
     ],
-    "documentLink": "https://docs.google.com/document/d/1IKmquFIzFXX4dXW14mJ45GNMgoeRUXLeGqFAOJuu13Y/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "The Hoop Hustle Trials",
-    "startTime": "2025-06-03T11:30:00Z",
-    "endTime": "2025-06-03T13:30:00Z",
-    "locations": [
-      {
-        "name": "Basketball Court",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1PNI8VmQtGzZC6GpHmRbJIDv4TuUsMVnSNtB0Aqqcw6o/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Chaser's League Trials",
-    "startTime": "2025-06-03T11:30:00Z",
-    "endTime": "2025-06-03T13:30:00Z",
-    "locations": [
-      {
-        "name": "KV Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://drive.google.com/file/d/1-aMP7p-gsBhAbsXqR7kAfnUUpEXuwlF9/view?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "3rd June",
+    "organiserEmail": ""
   },
   {
     "name": "Instructors VS Organisers",
-    "startTime": "2025-06-03T13:30:00Z",
-    "endTime": "2025-06-03T16:30:00Z",
+    "startTime": "19:00",
+    "endTime": "22:00",
     "locations": [
       {
         "name": "Sangam Ground",
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
       }
     ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "3rd June",
+    "organiserEmail": ""
   },
   {
-    "name": "Compassion-A-Thon 2.0",
-    "startTime": "2025-06-05T03:30:00Z",
-    "endTime": "2025-06-05T06:30:00Z",
-    "locations": [
-      {
-        "name": "TTJ",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1823J3AJwldNj94QoR3lR2OZG-9F6SbwgIDMJ3cYtLE8/edit?usp=sharing",
-    "organiserEmail": "https://compassionathon.framer.website/"
-  },
-  {
-    "name": "Madras Talks: Speaker 2",
-    "startTime": "2025-06-05T10:00:00Z",
-    "endTime": "2025-06-05T11:00:00Z",
-    "locations": [
-      {
-        "name": "TTJ",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "RoboSoccer 3.0",
-    "startTime": "2025-06-05T03:30:00Z",
-    "endTime": "2025-06-05T12:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 4",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1x6mBG_yM_4Plys1tsOAWSkgvZyQojr4EFJdCFJAQw6Q/edit?usp=sharing",
-    "organiserEmail": "https://sites.google.com/view/robosoccer/participate/robot-configurator"
-  },
-  {
-    "name": "EncryptID 4.0",
-    "startTime": "2025-06-05T03:30:00Z",
-    "endTime": "2025-06-05T11:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 2",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "CRC 201",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1Pxfxrr6wO6L0VnuTM7A7hPWoKBjfRKRNsxUxnKL4vMk/edit?usp=sharing",
-    "organiserEmail": "https://encryptid.iitmparadox.org/"
-  },
-  {
-    "name": "Becoming Billionaires 2.0",
-    "startTime": "2025-06-05T03:30:00Z",
-    "endTime": "2025-06-05T06:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 3",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "CRC 202",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Research Summit",
-    "startTime": "2025-06-05T08:30:00Z",
-    "endTime": "2025-06-05T11:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 3",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "CRC 301",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/17h3RXhGETzxLHwZZyOEl2D8OuV9yX-MJ/edit",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "LogicLoom 4.0",
-    "startTime": "2025-06-05T03:30:00Z",
-    "endTime": "2025-06-05T06:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 301",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://logicloom.iitmparadox.org/#rules",
-    "organiserEmail": "https://logicloom.iitmparadox.org/"
-  },
-  {
-    "name": "Python Coding Challenge 4.0",
-    "startTime": "2025-06-05T04:30:00Z",
-    "endTime": "2025-06-05T07:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 302",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1IfROnUM2y_6cf-8lkXWsjmbyTrMtbeF2zwD1pzbUxIo/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Ghost in Firewall",
-    "startTime": "2025-06-05T04:30:00Z",
-    "endTime": "2025-06-05T07:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 203",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1tJgegxGiSob-uYqTCIRuENamA3Y5i1fWC_d--xvhrcc/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Qutopia",
-    "startTime": "2025-06-05T06:00:00Z",
-    "endTime": "2025-06-05T07:30:00Z",
-    "locations": [
-      {
-        "name": "CLT",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1xPdXWLhe4hPfivqTp3mYGe8NhZ-oyapLdgjPUzzSQVs/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Laughing Mania",
-    "startTime": "2025-06-05T09:00:00Z",
-    "endTime": "2025-06-05T12:00:00Z",
-    "locations": [
-      {
-        "name": "CLT",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://drive.google.com/file/d/17oR7NtVgIBttAhGN_x-Rq9R1G1ZmiQ5R/view?ts=680e010d",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "PARDOX UNWIND",
-    "startTime": "2025-06-05T12:30:00Z",
-    "endTime": "2025-06-05T16:30:00Z",
-    "locations": [
-      {
-        "name": "OAT",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vSPPQBo64Ae-hTIPI--fm1KO3uVQ7WD0_qZzWK0rDnQtTxyqgwGiyf3s7H_Jy1ltYeR0JEQHAFiOLpf/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Kathalok Finale",
-    "startTime": "2025-06-05T03:30:00Z",
-    "endTime": "2025-06-05T06:00:00Z",
-    "locations": [
-      {
-        "name": "CRC 201",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "HSB",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/14thfPSXD1xuu7zE4DlRMcZV_dEOD-3rVZ4emH0Yfw-s/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Dhrishtikon Finale",
-    "startTime": "2025-06-05T06:30:00Z",
-    "endTime": "2025-06-05T09:00:00Z",
-    "locations": [
-      {
-        "name": "CRC 202",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "HSB",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Anukriti",
-    "startTime": "2025-06-05T03:30:00Z",
-    "endTime": "2025-06-05T08:00:00Z",
-    "locations": [
-      {
-        "name": "CRC 202",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "HSB",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "NAC",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1o8olRxQaLfCuWMbDoctzmJhz263vcgihEewK3WDq8es/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Inter house Finale",
-    "startTime": "2025-06-05T09:00:00Z",
-    "endTime": "2025-06-05T11:00:00Z",
-    "locations": [
-      {
-        "name": "CRC 203",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Awaaz E nukkad",
-    "startTime": "2025-06-05T12:00:00Z",
-    "endTime": "2025-06-05T13:00:00Z",
-    "locations": [
-      {
-        "name": "Himalaya Lawn",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1Bktq_8AGc37yLJ5NwLEPLpFgKqENF87ew2bBQNeOBek/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Premier League Phase 1",
-    "startTime": "2025-06-05T01:30:00Z",
-    "endTime": "2025-06-05T03:30:00Z",
-    "locations": [
-      {
-        "name": "Sangam Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1IKmquFIzFXX4dXW14mJ45GNMgoeRUXLeGqFAOJuu13Y/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Scavenger's Hunt Run 3",
-    "startTime": "2025-06-05T03:30:00Z",
-    "endTime": "2025-06-05T05:00:00Z",
-    "locations": [
-      {
-        "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "HSB",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/u/0/d/1Ba939ERyYtcMriP4USGHZ2SQ_s50kI9a-Cf_QjEYpXI/edit",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Sports Quiz Prelim",
-    "startTime": "2025-06-05T05:30:00Z",
-    "endTime": "2025-06-05T06:30:00Z",
-    "locations": [
-      {
-        "name": "Biotech Hall",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1r9qsMlUT-USxGtDkGqH9CXstHdcDLOm9-F0WXT8fA5M/edit?usp=drivesdk",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "IPL Auction",
-    "startTime": "2025-06-05T07:30:00Z",
-    "endTime": "2025-06-05T12:00:00Z",
-    "locations": [
-      {
-        "name": "Biotech Seminar Hall",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1IrWzC8WOe8nKEY9tYzR95ndOSE3HVCiaH85eBNMzsFk/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "The Hoop Hustle Final",
-    "startTime": "2025-06-05T12:00:00Z",
-    "endTime": "2025-06-05T14:00:00Z",
+    "name": "The Hoop Hustle Trials",
+    "startTime": "17:00",
+    "endTime": "19:00",
     "locations": [
       {
         "name": "Basketball Court",
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 12.9871528,
+        "longitude": 80.2316954
       }
     ],
-    "documentLink": "https://docs.google.com/document/d/1PNI8VmQtGzZC6GpHmRbJIDv4TuUsMVnSNtB0Aqqcw6o/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "3rd June",
+    "organiserEmail": ""
   },
   {
-    "name": "Chaser's League Women Group Stages",
-    "startTime": "2025-06-05T02:30:00Z",
-    "endTime": "2025-06-05T04:30:00Z",
+    "name": "50 Ka Funda 2.0",
+    "startTime": "11:00",
+    "endTime": "13:30",
     "locations": [
       {
-        "name": "KV Ground",
-        "latitude": 0,
-        "longitude": 0
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
       }
     ],
-    "documentLink": "https://drive.google.com/file/d/1-aMP7p-gsBhAbsXqR7kAfnUUpEXuwlF9/view?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Escape Room Prelim",
-    "startTime": "2025-06-05T04:30:00Z",
-    "endTime": "2025-06-05T07:00:00Z",
-    "locations": [
-      {
-        "name": "CRC 202",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1jl3xlmTGrPQud69QElVm8hpgHEpos7CktEefVJDhugU/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Chess Championship",
-    "startTime": "2025-06-05T08:00:00Z",
-    "endTime": "2025-06-05T11:00:00Z",
-    "locations": [
-      {
-        "name": "CRC 302",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "NAC",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://drive.google.com/file/d/1pSK2MDiVDREU8jAV4yAd8T5e43hj1hey/view",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Squid Games Finals",
-    "startTime": "2025-06-05T11:00:00Z",
-    "endTime": "2025-06-05T15:00:00Z",
-    "locations": [
-      {
-        "name": "Sangam Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vTnl7Ze2YOQqLdwBWJKgaVyNCDE38zlJNiGvy5Ab3piNi4TcmQaHJfX1aQZ5nbwvaX8I-hy79DkzVmI/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Scavenger's Hunt Run 4",
-    "startTime": "2025-06-05T13:00:00Z",
-    "endTime": "2025-06-05T14:30:00Z",
-    "locations": [
-      {
-        "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/u/0/d/1Ba939ERyYtcMriP4USGHZ2SQ_s50kI9a-Cf_QjEYpXI/edit",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Kampus Run",
-    "startTime": "2025-06-05T00:00:00Z",
-    "endTime": "2025-06-05T01:30:00Z",
-    "locations": [
-      {
-        "name": "Campus",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vQeRs_c5YT_6Ai08DF_ScVyGCSLP7AaFXCsVMeHNxuYO2tIqzZwk92-89C8dMeDrIUzwsHF5xxDJtFn/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "The Hoop Hustle Quarter and Semi",
-    "startTime": "2025-06-05T01:30:00Z",
-    "endTime": "2025-06-05T04:30:00Z",
-    "locations": [
-      {
-        "name": "Basketball Court",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1PNI8VmQtGzZC6GpHmRbJIDv4TuUsMVnSNtB0Aqqcw6o/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Badminton League 2.0 Quarter Finals",
-    "startTime": "2025-06-05T04:30:00Z",
-    "endTime": "2025-06-05T07:30:00Z",
-    "locations": [
-      {
-        "name": "Sitara Sports Complex",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vTXEbnjTFIXYtoVCXYkxNf1kMKvXOtVYBx8xOeW2UtF0Yn18_1vJ3KEpVRdSCn9VNNmDqa7GCGqlXmc/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Ranneeti 3.0: BGMI Qualifiers 2",
-    "startTime": "2025-06-05T07:30:00Z",
-    "endTime": "2025-06-05T11:00:00Z",
-    "locations": [
-      {
-        "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "RMN",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "HSB",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1hmaMr7ponfyb_qkAuup4QmSvbQ63myY9qOL9aEH2hKM/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Champions League Group Stages",
-    "startTime": "2025-06-05T11:00:00Z",
-    "endTime": "2025-06-05T14:00:00Z",
-    "locations": [
-      {
-        "name": "Football Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/167zSLUnOztAIsfUlqmNxjvhvsKROqKxXN30t5pL-P4k/edit?tab=t.0#heading=h.dds8ha97u6t",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Ranneeti 3.0: Free Fire Qualifiers 2",
-    "startTime": "2025-06-05T07:30:00Z",
-    "endTime": "2025-06-05T11:00:00Z",
-    "locations": [
-      {
-        "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "RJN",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "HSB",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1gwCNbiqQzhAez8QrLOVk1P4P37GIsFNFOJX7oja_4gI/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Volley Vibes Group Stages",
-    "startTime": "2025-06-05T11:00:00Z",
-    "endTime": "2025-06-05T14:00:00Z",
-    "locations": [
-      {
-        "name": "Volleyball Court",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1sEf1vGn5TxHN6xjIL_zy_rMVlZtTjbe8s3iW4NBRrw4/edit?usp=drivesdk",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Odoo Internal Review",
-    "startTime": "2025-06-06T02:30:00Z",
-    "endTime": "2025-06-06T06:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 202",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1RjWopMyy9UyfZFxuJB0Aa8oTrH8qcGAmhwx64hE-TNY/edit?tab=t.0",
-    "organiserEmail": "https://www.odoo.com/event/odoo-x-paradox-iit-madras-7880/register"
-  },
-  {
-    "name": "Odoo Team Presentation",
-    "startTime": "2025-06-06T07:30:00Z",
-    "endTime": "2025-06-06T09:30:00Z",
-    "locations": [
-      {
-        "name": "TTJ",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1RjWopMyy9UyfZFxuJB0Aa8oTrH8qcGAmhwx64hE-TNY/edit?tab=t.0",
-    "organiserEmail": "https://www.odoo.com/event/odoo-x-paradox-iit-madras-7880/register"
-  },
-  {
-    "name": "Panel Discussion",
-    "startTime": "2025-06-06T10:30:00Z",
-    "endTime": "2025-06-06T12:30:00Z",
-    "locations": [
-      {
-        "name": "TTJ",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "SAC",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "RoboSoccer 3.0",
-    "startTime": "2025-06-06T03:30:00Z",
-    "endTime": "2025-06-06T12:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 4",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1x6mBG_yM_4Plys1tsOAWSkgvZyQojr4EFJdCFJAQw6Q/edit?usp=sharing",
-    "organiserEmail": "https://sites.google.com/view/robosoccer/participate/robot-configurator"
-  },
-  {
-    "name": "Compassion-A-Thon 2.0",
-    "startTime": "2025-06-06T04:30:00Z",
-    "endTime": "2025-06-06T09:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 2",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1823J3AJwldNj94QoR3lR2OZG-9F6SbwgIDMJ3cYtLE8/edit?usp=sharing",
-    "organiserEmail": "https://compassionathon.framer.website/"
-  },
-  {
-    "name": "DSA Triathlon 2.0",
-    "startTime": "2025-06-06T03:30:00Z",
-    "endTime": "2025-06-06T06:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 101",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org/events/Selection%20Process%20Of%20Participants:%20Level%201%20-%20All%20the%20participants%20registered%20for%20the%20event.%20Level%202-%20Top%2050%%20Participants%20of%20level%201.%20Level%203-%20Top%2030%20Participants%20of%20level%202.",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Quantageddon 2.0",
-    "startTime": "2025-06-06T09:30:00Z",
-    "endTime": "2025-06-06T11:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 101",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Policy Forge",
-    "startTime": "2025-06-06T04:30:00Z",
-    "endTime": "2025-06-06T10:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 102",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/10D_oB3npxS-1AE76xbA0llNkhlX1AWMUUr93Ze7R0bo/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "DataVista",
-    "startTime": "2025-06-06T03:30:00Z",
-    "endTime": "2025-06-06T07:00:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 3",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "CRC 201",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1XiLA5-9Vh1Gx03-2omkIoMPg7haWQhv6pxf7OfomagM/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "LogicLoom 4.0",
-    "startTime": "2025-06-06T08:30:00Z",
-    "endTime": "2025-06-06T11:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 3",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "CRC 201",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://logicloom.iitmparadox.org/#rules",
-    "organiserEmail": "https://logicloom.iitmparadox.org/"
-  },
-  {
-    "name": "DJ NIGHT",
-    "startTime": "2025-06-06T13:30:00Z",
-    "endTime": "2025-06-06T17:30:00Z",
-    "locations": [
-      {
-        "name": "OAT",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Capitol Conclave",
-    "startTime": "2025-06-06T04:30:00Z",
-    "endTime": "2025-06-06T06:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 103",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://drive.google.com/file/d/1IDMlLJoZ8-iGqR5GPxy_5OVK_DKhkFti/view?usp=drivesdk",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Qutopia Finale",
-    "startTime": "2025-06-06T06:30:00Z",
-    "endTime": "2025-06-06T09:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 103 (Ground Floor)",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1xPdXWLhe4hPfivqTp3mYGe8NhZ-oyapLdgjPUzzSQVs/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Got Talent Finale",
-    "startTime": "2025-06-06T05:00:00Z",
-    "endTime": "2025-06-06T08:00:00Z",
-    "locations": [
-      {
-        "name": "CLT",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1dRDAIowut0Evrp4ye_H67kxK2-ZovWovDiwOpaoonvk/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Aur Karo Theater",
-    "startTime": "2025-06-06T09:30:00Z",
-    "endTime": "2025-06-06T11:30:00Z",
-    "locations": [
-      {
-        "name": "CLT",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1LWp7ZYgdDSz_3LW24ZELGM6Pfg5K2ZwWulaGy-Xd8vs/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "D2D",
-    "startTime": "2025-06-06T11:30:00Z",
-    "endTime": "2025-06-06T13:30:00Z",
-    "locations": [
-      {
-        "name": "Himalaya Lawn",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://vish2borganized.notion.site/Dream2Dance-4-0-Rules-Guidelines-1dca0887b1be81428cf5ee81a0e5f623",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Champions League Semi",
-    "startTime": "2025-06-06T00:30:00Z",
-    "endTime": "2025-06-06T03:30:00Z",
-    "locations": [
-      {
-        "name": "Football Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/167zSLUnOztAIsfUlqmNxjvhvsKROqKxXN30t5pL-P4k/edit?tab=t.0#heading=h.dds8ha97u6t",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Scavengers Hunt Run 5",
-    "startTime": "2025-06-06T04:00:00Z",
-    "endTime": "2025-06-06T05:30:00Z",
-    "locations": [
-      {
-        "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/u/0/d/1Ba939ERyYtcMriP4USGHZ2SQ_s50kI9a-Cf_QjEYpXI/edit",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Escape Room Semi",
-    "startTime": "2025-06-06T08:30:00Z",
-    "endTime": "2025-06-06T10:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 202",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1jl3xlmTGrPQud69QElVm8hpgHEpos7CktEefVJDhugU/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Chess Championship Semi",
-    "startTime": "2025-06-06T10:30:00Z",
-    "endTime": "2025-06-06T14:30:00Z",
-    "locations": [
-      {
-        "name": "RMN",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "Chess Hall",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://drive.google.com/file/d/1pSK2MDiVDREU8jAV4yAd8T5e43hj1hey/view",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Sprint Saga Shot Put",
-    "startTime": "2025-06-06T01:30:00Z",
-    "endTime": "2025-06-06T03:30:00Z",
-    "locations": [
-      {
-        "name": "KV Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vS2YQR1b9EIjZY71niy7-n547ReUdC9mv_BOgOaacjbjnF0crNfg18kfxxDVdg3pZLTsfd50XaMQso0/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Chasers League Semi Men",
-    "startTime": "2025-06-06T03:30:00Z",
-    "endTime": "2025-06-06T04:30:00Z",
-    "locations": [
-      {
-        "name": "KV Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://drive.google.com/file/d/1-aMP7p-gsBhAbsXqR7kAfnUUpEXuwlF9/view?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Badminton League Semi",
-    "startTime": "2025-06-06T04:30:00Z",
-    "endTime": "2025-06-06T07:30:00Z",
-    "locations": [
-      {
-        "name": "Sitara Sports Complex",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vTXEbnjTFIXYtoVCXYkxNf1kMKvXOtVYBx8xOeW2UtF0Yn18_1vJ3KEpVRdSCn9VNNmDqa7GCGqlXmc/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Ranneeti 3.0: BGMI Semi Finals",
-    "startTime": "2025-06-06T07:30:00Z",
-    "endTime": "2025-06-06T10:30:00Z",
-    "locations": [
-      {
-        "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "RJN",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "HSB",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1hmaMr7ponfyb_qkAuup4QmSvbQ63myY9qOL9aEH2hKM/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Premier League 2.0 Semi",
-    "startTime": "2025-06-06T10:30:00Z",
-    "endTime": "2025-06-06T12:30:00Z",
-    "locations": [
-      {
-        "name": "Sangam Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1IKmquFIzFXX4dXW14mJ45GNMgoeRUXLeGqFAOJuu13Y/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Scavengers Hunt Run 6",
-    "startTime": "2025-06-06T12:30:00Z",
-    "endTime": "2025-06-06T14:00:00Z",
-    "locations": [
-      {
-        "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/u/0/d/1Ba939ERyYtcMriP4USGHZ2SQ_s50kI9a-Cf_QjEYpXI/edit",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Volley Vibes Semi",
-    "startTime": "2025-06-06T02:30:00Z",
-    "endTime": "2025-06-06T04:30:00Z",
-    "locations": [
-      {
-        "name": "Volleyball Court",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1sEf1vGn5TxHN6xjIL_zy_rMVlZtTjbe8s3iW4NBRrw4/edit?usp=drivesdk",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Ranneeti 3.0: Free Fire Semi Finals",
-    "startTime": "2025-06-06T07:30:00Z",
-    "endTime": "2025-06-06T10:30:00Z",
-    "locations": [
-      {
-        "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "RMN",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "HSB",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1gwCNbiqQzhAez8QrLOVk1P4P37GIsFNFOJX7oja_4gI/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Chaser's League Semi Women",
-    "startTime": "2025-06-06T10:30:00Z",
-    "endTime": "2025-06-06T11:30:00Z",
-    "locations": [
-      {
-        "name": "KV Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://drive.google.com/file/d/1-aMP7p-gsBhAbsXqR7kAfnUUpEXuwlF9/view?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Sprint Saga 100m",
-    "startTime": "2025-06-06T11:30:00Z",
-    "endTime": "2025-06-06T13:30:00Z",
-    "locations": [
-      {
-        "name": "KV Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vS2YQR1b9EIjZY71niy7-n547ReUdC9mv_BOgOaacjbjnF0crNfg18kfxxDVdg3pZLTsfd50XaMQso0/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Sports Quiz Final",
-    "startTime": "2025-06-06T05:00:00Z",
-    "endTime": "2025-06-06T08:30:00Z",
-    "locations": [
-      {
-        "name": "Biotech Hall",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1r9qsMlUT-USxGtDkGqH9CXstHdcDLOm9-F0WXT8fA5M/edit?usp=drivesdk",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "DSA Triathlon 2.0",
-    "startTime": "2025-06-07T03:30:00Z",
-    "endTime": "2025-06-07T06:30:00Z",
-    "locations": [
-      {
-        "name": "CRC 101",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Fetch AI Hackathon 2.0",
-    "startTime": "2025-06-07T03:30:00Z",
-    "endTime": "2025-06-07T06:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 3",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Becoming Billionaires 2.0",
-    "startTime": "2025-06-07T05:30:00Z",
-    "endTime": "2025-06-07T07:30:00Z",
-    "locations": [
-      {
-        "name": "TTJ",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "DataVista",
-    "startTime": "2025-06-07T08:30:00Z",
-    "endTime": "2025-06-07T11:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 3",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1XiLA5-9Vh1Gx03-2omkIoMPg7haWQhv6pxf7OfomagM/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Madras Talks: Speaker 3",
-    "startTime": "2025-06-07T09:30:00Z",
-    "endTime": "2025-06-07T11:00:00Z",
-    "locations": [
-      {
-        "name": "TTJ",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Madras Talks: Speaker 4",
-    "startTime": "2025-06-07T11:00:00Z",
-    "endTime": "2025-06-07T12:30:00Z",
-    "locations": [
-      {
-        "name": "TTJ",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Ghost In Firewall",
-    "startTime": "2025-06-07T04:30:00Z",
-    "endTime": "2025-06-07T07:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 1",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1tJgegxGiSob-uYqTCIRuENamA3Y5i1fWC_d--xvhrcc/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "4th June",
+    "organiserEmail": ""
   },
   {
     "name": "ParaVerse 3.0",
-    "startTime": "2025-06-07T08:30:00Z",
-    "endTime": "2025-06-07T11:00:00Z",
+    "startTime": "14:00",
+    "endTime": "17:00",
     "locations": [
       {
-        "name": "ICSR Room 1",
-        "latitude": 0,
-        "longitude": 0
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
       }
     ],
-    "documentLink": "https://docs.google.com/document/d/1JUfPrzxCuaGgAl9-M368vijGgLVNYdUG5BbFHvmmk_Q/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "4th June",
+    "organiserEmail": ""
   },
   {
-    "name": "QuantQuest",
-    "startTime": "2025-06-07T04:30:00Z",
-    "endTime": "2025-06-07T07:30:00Z",
+    "name": "Odoo Hackathon 36 Hrs",
+    "startTime": "8:00",
+    "endTime": "22:00",
     "locations": [
       {
-        "name": "ICSR Room 2",
-        "latitude": 0,
-        "longitude": 0
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
       }
     ],
-    "documentLink": "https://docs.google.com/document/d/1TmIwqLpoozXmOE0buaqYRjzGHYSew6Qa_zGOxNrLuWY/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "4th June",
+    "organiserEmail": ""
   },
   {
-    "name": "Quantageddon 2.0",
-    "startTime": "2025-06-07T08:30:00Z",
-    "endTime": "2025-06-07T11:30:00Z",
+    "name": "RoboSoccer 3.0",
+    "startTime": "9:00",
+    "endTime": "18:00",
     "locations": [
       {
-        "name": "ICSR Room 2",
-        "latitude": 0,
-        "longitude": 0
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
       }
     ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "4th June",
+    "organiserEmail": ""
   },
   {
-    "name": "Anukriti Workshop",
-    "startTime": "2025-06-07T04:30:00Z",
-    "endTime": "2025-06-07T07:30:00Z",
+    "name": "Odoo Hackathon Inaugration",
+    "startTime": "8:00",
+    "endTime": "9:30",
     "locations": [
       {
-        "name": "CRC 102",
-        "latitude": 0,
-        "longitude": 0
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
       }
     ],
-    "documentLink": "https://docs.google.com/document/d/1o8olRxQaLfCuWMbDoctzmJhz263vcgihEewK3WDq8es/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "4th June",
+    "organiserEmail": ""
   },
   {
-    "name": "Shutter safari",
-    "startTime": "2025-06-07T06:00:00Z",
-    "endTime": "2025-06-07T07:30:00Z",
+    "name": "Madras Conclave- Edelweiss VP",
+    "startTime": "11:00",
+    "endTime": "12:30",
     "locations": [
       {
-        "name": "CRC with Projector",
-        "latitude": 0,
-        "longitude": 0
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
       }
     ],
-    "documentLink": "https://docs.google.com/document/d/1yEUwORXsil8DZMV1YEdgHppdLnXYtbNUDxPU1re8pbo/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "4th June",
+    "organiserEmail": ""
   },
   {
-    "name": "Rapadox",
-    "startTime": "2025-06-07T13:30:00Z",
-    "endTime": "2025-06-07T15:30:00Z",
+    "name": "Madras Conclave : Milan Bavishi",
+    "startTime": "13:30",
+    "endTime": "15:00",
     "locations": [
       {
-        "name": "Himalaya Lawn",
-        "latitude": 0,
-        "longitude": 0
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
       }
     ],
-    "documentLink": "https://docs.google.com/document/d/1RfMCPJv_Gfcmbm-_LWU3wXjbvrXNf1dV_ycA7KPtdUE/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "4th June",
+    "organiserEmail": ""
   },
   {
-    "name": "D2D",
-    "startTime": "2025-06-07T08:00:00Z",
-    "endTime": "2025-06-07T10:30:00Z",
+    "name": "Madras Conclave : Odoo Director",
+    "startTime": "15:30",
+    "endTime": "17:00",
     "locations": [
       {
-        "name": "SAC",
-        "latitude": 0,
-        "longitude": 0
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
       }
     ],
-    "documentLink": "https://vish2borganized.notion.site/Dream2Dance-4-0-Rules-Guidelines-1dca0887b1be81428cf5ee81a0e5f623",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "4th June",
+    "organiserEmail": ""
   },
   {
-    "name": "Mr&Ms Paradox",
-    "startTime": "2025-06-07T11:00:00Z",
-    "endTime": "2025-06-07T13:30:00Z",
-    "locations": [
-      {
-        "name": "SAC",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1tBZgZJnJRNpEzpLUJfiK19EGhNmvVp18CXkVQcbiRIY/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Sprint Saga Discuss",
-    "startTime": "2025-06-07T01:30:00Z",
-    "endTime": "2025-06-07T03:30:00Z",
-    "locations": [
-      {
-        "name": "KV Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vS2YQR1b9EIjZY71niy7-n547ReUdC9mv_BOgOaacjbjnF0crNfg18kfxxDVdg3pZLTsfd50XaMQso0/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Ranneeti 3.0: BGMI Finals",
-    "startTime": "2025-06-07T04:30:00Z",
-    "endTime": "2025-06-07T07:30:00Z",
-    "locations": [
-      {
-        "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "RMN",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "HSB",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1hmaMr7ponfyb_qkAuup4QmSvbQ63myY9qOL9aEH2hKM/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Badminton League 2.0 Finals",
-    "startTime": "2025-06-07T07:30:00Z",
-    "endTime": "2025-06-07T11:00:00Z",
-    "locations": [
-      {
-        "name": "Sitara Sports Complex",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vTXEbnjTFIXYtoVCXYkxNf1kMKvXOtVYBx8xOeW2UtF0Yn18_1vJ3KEpVRdSCn9VNNmDqa7GCGqlXmc/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Chaser's League Finals Men+Women",
-    "startTime": "2025-06-07T11:30:00Z",
-    "endTime": "2025-06-07T14:30:00Z",
-    "locations": [
-      {
-        "name": "KV Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://drive.google.com/file/d/1-aMP7p-gsBhAbsXqR7kAfnUUpEXuwlF9/view?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Premier League 2.0 Semi +Eliminator",
-    "startTime": "2025-06-07T02:30:00Z",
-    "endTime": "2025-06-07T04:30:00Z",
-    "locations": [
-      {
-        "name": "Sangam Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1IKmquFIzFXX4dXW14mJ45GNMgoeRUXLeGqFAOJuu13Y/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Escape Room Final",
-    "startTime": "2025-06-07T07:30:00Z",
-    "endTime": "2025-06-07T09:30:00Z",
-    "locations": [
-      {
-        "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1jl3xlmTGrPQud69QElVm8hpgHEpos7CktEefVJDhugU/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Chess Championship",
-    "startTime": "2025-06-07T10:30:00Z",
-    "endTime": "2025-06-07T11:30:00Z",
+    "name": "Samvaad 1.0",
+    "startTime": "11:00",
+    "endTime": "12:30",
     "locations": [
       {
         "name": "CLT",
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 12.9896141,
+        "longitude": 80.2321059
       }
     ],
-    "documentLink": "https://drive.google.com/file/d/1pSK2MDiVDREU8jAV4yAd8T5e43hj1hey/view",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "4th June",
+    "organiserEmail": ""
   },
   {
-    "name": "Paradox Premier League 2.0 Final",
-    "startTime": "2025-06-07T12:00:00Z",
-    "endTime": "2025-06-07T14:00:00Z",
-    "locations": [
-      {
-        "name": "Sangam Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1IKmquFIzFXX4dXW14mJ45GNMgoeRUXLeGqFAOJuu13Y/edit?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Volley Vibes Finals",
-    "startTime": "2025-06-07T02:30:00Z",
-    "endTime": "2025-06-07T05:30:00Z",
-    "locations": [
-      {
-        "name": "Volleyball Court",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1sEf1vGn5TxHN6xjIL_zy_rMVlZtTjbe8s3iW4NBRrw4/edit?usp=drivesdk",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Champions League Trials",
-    "startTime": "2025-06-04T00:30:00Z",
-    "endTime": "2025-06-04T03:00:00Z",
-    "locations": [
-      {
-        "name": "Football Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/167zSLUnOztAIsfUlqmNxjvhvsKROqKxXN30t5pL-P4k/edit?tab=t.0#heading=h.dds8ha97u6t",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Paradox Champions League Finals",
-    "startTime": "2025-06-07T01:30:00Z",
-    "endTime": "2025-06-07T03:30:00Z",
-    "locations": [
-      {
-        "name": "Football Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/167zSLUnOztAIsfUlqmNxjvhvsKROqKxXN30t5pL-P4k/edit?tab=t.0#heading=h.dds8ha97u6t",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Sprint Saga 200m",
-    "startTime": "2025-06-07T11:30:00Z",
-    "endTime": "2025-06-07T13:30:00Z",
-    "locations": [
-      {
-        "name": "KV Ground",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vS2YQR1b9EIjZY71niy7-n547ReUdC9mv_BOgOaacjbjnF0crNfg18kfxxDVdg3pZLTsfd50XaMQso0/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Odoo Coding Round",
-    "startTime": "2025-06-04T02:30:00Z",
-    "endTime": "2025-06-04T12:30:00Z",
-    "locations": [
-      {
-        "name": "NAC - 3 to 4 classrooms",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1RjWopMyy9UyfZFxuJB0Aa8oTrH8qcGAmhwx64hE-TNY/edit?tab=t.0",
-    "organiserEmail": "https://www.odoo.com/event/odoo-x-paradox-iit-madras-7880/register"
-  },
-  {
-    "name": "Fetch AI Hackathon 2.0",
-    "startTime": "2025-06-07T03:30:00Z",
-    "endTime": "2025-06-07T06:30:00Z",
-    "locations": [
-      {
-        "name": "ICSR Room 3",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://iitmparadox.org",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Volley Vibes Trials",
-    "startTime": "2025-06-04T11:00:00Z",
-    "endTime": "2025-06-04T14:00:00Z",
-    "locations": [
-      {
-        "name": "Volleyball Court",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://docs.google.com/document/d/1sEf1vGn5TxHN6xjIL_zy_rMVlZtTjbe8s3iW4NBRrw4/edit?usp=drivesdk",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Chess Championship Inst VS Org",
-    "startTime": "2025-06-04T12:30:00Z",
-    "endTime": "2025-06-04T14:00:00Z",
-    "locations": [
-      {
-        "name": "Chess Hall Sitara Sports Complex",
-        "latitude": 0,
-        "longitude": 0
-      },
-      {
-        "name": "NAC",
-        "latitude": 0,
-        "longitude": 0
-      }
-    ],
-    "documentLink": "https://drive.google.com/file/d/1pSK2MDiVDREU8jAV4yAd8T5e43hj1hey/view?usp=sharing",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
-  },
-  {
-    "name": "Squid Games Selection Round",
-    "startTime": "2025-06-04T09:30:00Z",
-    "endTime": "2025-06-04T10:30:00Z",
+    "name": "Python Coding Challenge 4.0",
+    "startTime": "10:00",
+    "endTime": "13:00",
     "locations": [
       {
         "name": "CRC",
-        "latitude": 0,
-        "longitude": 0
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
       }
     ],
-    "documentLink": "https://docs.google.com/document/d/e/2PACX-1vTnl7Ze2YOQqLdwBWJKgaVyNCDE38zlJNiGvy5Ab3piNi4TcmQaHJfX1aQZ5nbwvaX8I-hy79DkzVmI/pub",
-    "organiserEmail": "example@ds.study.iitm.ac.in"
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Python Coding Challenge 4.0",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "QuantQuest",
+    "startTime": "13:30",
+    "endTime": "16:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Capitol Conclave CRC 103",
+    "startTime": "9:00",
+    "endTime": "11:00",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Interhouse",
+    "startTime": "11:30",
+    "endTime": "14:30",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Aur Karo Theater",
+    "startTime": "-",
+    "endTime": "-",
+    "locations": [
+      {
+        "name": "Himalaya Lawn",
+        "latitude": 12.9867607,
+        "longitude": 80.2359581
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "PROM NIGHT",
+    "startTime": "18:00",
+    "endTime": "22:00",
+    "locations": [
+      {
+        "name": "SAC",
+        "latitude": 12.9893377,
+        "longitude": 80.2377489
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Kathalok RJN 201",
+    "startTime": "9:00",
+    "endTime": "11:30",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Dhrishtikon RJN 201",
+    "startTime": "12:00",
+    "endTime": "14:30",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "D2D",
+    "startTime": "14:30",
+    "endTime": "17:30",
+    "locations": [
+      {
+        "name": "Stall Area",
+        "latitude": 12.988664533166702,
+        "longitude": 80.23311030582067
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Capitol Conclave CRC 202",
+    "startTime": "9:00",
+    "endTime": "11:00",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "UNWIND",
+    "startTime": "8:00",
+    "endTime": "17:30",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "MOVIE NIGHT",
+    "startTime": "8:00",
+    "endTime": "23:59",
+    "locations": [
+      {
+        "name": "OAT",
+        "latitude": 12.9890256,
+        "longitude": 80.2335357
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Premier League 2.0 Trails",
+    "startTime": "6:30",
+    "endTime": "9:30",
+    "locations": [
+      {
+        "name": "Sangam Ground",
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Champion's League Trials",
+    "startTime": "6:00",
+    "endTime": "9:00",
+    "locations": [
+      {
+        "name": "Football Ground",
+        "latitude": 12.9881529,
+        "longitude": 80.2274259
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Sprint Saga (100 m) and Mid distance (800 m)",
+    "startTime": "6:00",
+    "endTime": "9:00",
+    "locations": [
+      {
+        "name": "Manohar C Watsa Stadium",
+        "latitude": 12.9920464,
+        "longitude": 80.2366863
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Scavenger's Hunt Run 1",
+    "startTime": "9:00",
+    "endTime": "10:30",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Ranneeti 3.0: BGMI Qualifiers 1",
+    "startTime": "11:30",
+    "endTime": "16:30",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chess Championship-Day 1",
+    "startTime": "11:30",
+    "endTime": "13:00",
+    "locations": [
+      {
+        "name": "NAC",
+        "latitude": 12.9928911,
+        "longitude": 80.230397
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "IPL Auction Day 1",
+    "startTime": "11:30",
+    "endTime": "15:00",
+    "locations": [
+      {
+        "name": "Biotech",
+        "latitude": 12.9894128,
+        "longitude": 80.2276362
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Squid Games Selection Round",
+    "startTime": "15:00",
+    "endTime": "16:00",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Volley Vibes Trials",
+    "startTime": "17:00",
+    "endTime": "20:00",
+    "locations": [
+      {
+        "name": "Volleyball Court",
+        "latitude": 12.9869397,
+        "longitude": 80.2323935
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Premier League 2.0",
+    "startTime": "16:30",
+    "endTime": "19:30",
+    "locations": [
+      {
+        "name": "Sangam Ground",
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Scavenger's Hunt Knockout 2",
+    "startTime": "16:00",
+    "endTime": "17:30",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chess Championship Inst VS Org",
+    "startTime": "18:00",
+    "endTime": "19:30",
+    "locations": [
+      {
+        "name": "Sitara Sports Complex",
+        "latitude": 12.9880192,
+        "longitude": 80.230861
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chaser's League Men's Group Stages",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "locations": [
+      {
+        "name": "KV",
+        "latitude": 12.9921054,
+        "longitude": 80.233177
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "The Hoop Hustle Men and Women Group Stages",
+    "startTime": "16:00",
+    "endTime": "20:00",
+    "locations": [
+      {
+        "name": "Basketball Court",
+        "latitude": 12.9871528,
+        "longitude": 80.2316954
+      }
+    ],
+    "documentLink": "4th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Compassion-A-Thon 2.0",
+    "startTime": "9:00",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Madras Conclave: Herbalife",
+    "startTime": "15:30",
+    "endTime": "16:30",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "GATE GUIDANCE",
+    "startTime": "17:00",
+    "endTime": "18:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Odoo Hackathon 36 Hrs",
+    "startTime": "8:00",
+    "endTime": "22:00",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "RoboSoccer 3.0",
+    "startTime": "9:00",
+    "endTime": "18:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "EncryptID 4.0",
+    "startTime": "9:00",
+    "endTime": "17:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Becoming Billionaires 2.0",
+    "startTime": "9:00",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Research Summit",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "LogicLoom 4.0",
+    "startTime": "9:00",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "PCC 4.0",
+    "startTime": "9:00",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Ghost in Firewall",
+    "startTime": "13:00",
+    "endTime": "16:00",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "COMEDY NIGHT",
+    "startTime": "21:00",
+    "endTime": "23:59",
+    "locations": [
+      {
+        "name": "CLT",
+        "latitude": 12.9896141,
+        "longitude": 80.2321059
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Quotopia",
+    "startTime": "11:30",
+    "endTime": "13:00",
+    "locations": [
+      {
+        "name": "CLT",
+        "latitude": 12.9896141,
+        "longitude": 80.2321059
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Laughing Mania CLT",
+    "startTime": "14:30",
+    "endTime": "17:30",
+    "locations": [
+      {
+        "name": "CLT",
+        "latitude": 12.9896141,
+        "longitude": 80.2321059
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "PARDOX UNWIND",
+    "startTime": "18:00",
+    "endTime": "23:59",
+    "locations": [
+      {
+        "name": "OAT",
+        "latitude": 12.9890256,
+        "longitude": 80.2335357
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Unwind",
+    "startTime": "11:00",
+    "endTime": "13:30",
+    "locations": [
+      {
+        "name": "SAC",
+        "latitude": 12.9893377,
+        "longitude": 80.2377489
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Kathalok Finale",
+    "startTime": "9:00",
+    "endTime": "11:30",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Dhrishtikon Finale",
+    "startTime": "12:00",
+    "endTime": "14:30",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Anukriti",
+    "startTime": "9:00",
+    "endTime": "13:30",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Inter house Finale",
+    "startTime": "14:30",
+    "endTime": "16:30",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Awaaz E nukkad",
+    "startTime": "17:30",
+    "endTime": "18:30",
+    "locations": [
+      {
+        "name": "SAC",
+        "latitude": 12.9893377,
+        "longitude": 80.2377489
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Premier League Phase 1",
+    "startTime": "7:00",
+    "endTime": "9:00",
+    "locations": [
+      {
+        "name": "Sangam Ground",
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Scavenger's Hunt 1",
+    "startTime": "9:00",
+    "endTime": "10:30",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "IPL Auction",
+    "startTime": "13:00",
+    "endTime": "17:30",
+    "locations": [
+      {
+        "name": "Biotech",
+        "latitude": 12.9894128,
+        "longitude": 80.2276362
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "The Hoop Hustle Final",
+    "startTime": "17:30",
+    "endTime": "19:30",
+    "locations": [
+      {
+        "name": "Basketball Court",
+        "latitude": 12.9871528,
+        "longitude": 80.2316954
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chaser's League Women Group Stages",
+    "startTime": "7:00",
+    "endTime": "9:00",
+    "locations": [
+      {
+        "name": "KV",
+        "latitude": 12.9921054,
+        "longitude": 80.233177
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chess Chanpionship Day 2",
+    "startTime": "13:30",
+    "endTime": "14:30",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Squid Games Finals",
+    "startTime": "16:30",
+    "endTime": "20:30",
+    "locations": [
+      {
+        "name": "Sangam Ground",
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Badminton League 2.0 Quarter Finals",
+    "startTime": "11:00",
+    "endTime": "15:30",
+    "locations": [
+      {
+        "name": "Sitara Sports Complex",
+        "latitude": 12.9880192,
+        "longitude": 80.230861
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Sprint Saga Interhouse Mixed Relay (4 x 400m)",
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "locations": [
+      {
+        "name": "Manohar C Watsa Stadium",
+        "latitude": 12.9920464,
+        "longitude": 80.2366863
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Sports Quiz Prelim",
+    "startTime": "9:00",
+    "endTime": "10:30",
+    "locations": [
+      {
+        "name": "Biotech",
+        "latitude": 12.9894128,
+        "longitude": 80.2276362
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Scavenger's Hunt 2",
+    "startTime": "18:30",
+    "endTime": "20:00",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Kampus Run",
+    "startTime": "5:30",
+    "endTime": "-",
+    "locations": [
+      {
+        "name": "Campus",
+        "latitude": "0",
+        "longitude": "0"
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "The Hoop Hustle Quarter and",
+    "startTime": "7:00",
+    "endTime": "10:00",
+    "locations": [
+      {
+        "name": "Basketball Court",
+        "latitude": 12.9871528,
+        "longitude": 80.2316954
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Ranneeti 3.0: BGMI Qualifiers 2",
+    "startTime": "13:00",
+    "endTime": "16:30",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Champions League Group Stages",
+    "startTime": "16:30",
+    "endTime": "19:30",
+    "locations": [
+      {
+        "name": "Football Ground",
+        "latitude": 12.9881529,
+        "longitude": 80.2274259
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Volley Vibes Group Stages",
+    "startTime": "16:30",
+    "endTime": "19:30",
+    "locations": [
+      {
+        "name": "Volleyball Court",
+        "latitude": 12.9869397,
+        "longitude": 80.2323935
+      }
+    ],
+    "documentLink": "5th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "RoboSoccer 3.0",
+    "startTime": "9:00",
+    "endTime": "18:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Odoo Internal Review",
+    "startTime": "8:00",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Odoo Team Presentation",
+    "startTime": "13:00",
+    "endTime": "15:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Compassion-A-Thon 2.0",
+    "startTime": "10:00",
+    "endTime": "15:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Prof Mitesh",
+    "startTime": "10:00",
+    "endTime": "11:30",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "DSA Triathlon 2.0",
+    "startTime": "9:00",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Quantageddon 2.0",
+    "startTime": "15:00",
+    "endTime": "17:00",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "FETCH AI",
+    "startTime": "10:30",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Mantrana 1.0",
+    "startTime": "15:00",
+    "endTime": "17:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Policy Forge",
+    "startTime": "10:00",
+    "endTime": "16:00",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "DataVista",
+    "startTime": "9:00",
+    "endTime": "12:30",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "LogicLoom 4.0",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "DJ NIGHT",
+    "startTime": "19:00",
+    "endTime": "-",
+    "locations": [
+      {
+        "name": "OAT",
+        "latitude": 12.9890256,
+        "longitude": 80.2335357
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Capitol Conclave",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Quotopia Finale",
+    "startTime": "12:00",
+    "endTime": "15:00",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Mantrana 1.0",
+    "startTime": "17:30",
+    "endTime": "18:30",
+    "locations": [
+      {
+        "name": "CLT",
+        "latitude": 12.9896141,
+        "longitude": 80.2321059
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Got Talent Finale CLT",
+    "startTime": "10:30",
+    "endTime": "13:30",
+    "locations": [
+      {
+        "name": "CLT",
+        "latitude": 12.9896141,
+        "longitude": 80.2321059
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Aur Karo Theater",
+    "startTime": "15:00",
+    "endTime": "17:00",
+    "locations": [
+      {
+        "name": "CLT",
+        "latitude": 12.9896141,
+        "longitude": 80.2321059
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "D2D",
+    "startTime": "17:00",
+    "endTime": "19:00",
+    "locations": [
+      {
+        "name": "Himalaya Lawn",
+        "latitude": 12.9867607,
+        "longitude": 80.2359581
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Anukriti",
+    "startTime": "9:00",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Escape Room",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chess Championship Semi",
+    "startTime": "16:00",
+    "endTime": "20:00",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Badminton League Semi",
+    "startTime": "11:00",
+    "endTime": "15:00",
+    "locations": [
+      {
+        "name": "Sitara Sports Complex",
+        "latitude": 12.9880192,
+        "longitude": 80.230861
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Champions League Semi Finals",
+    "startTime": "16:30",
+    "endTime": "19:30",
+    "locations": [
+      {
+        "name": "Football Ground",
+        "latitude": 12.9881529,
+        "longitude": 80.2274259
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chaser's League Quarter-Finals (Men)",
+    "startTime": "20:30",
+    "endTime": "21:30",
+    "locations": [
+      {
+        "name": "KV",
+        "latitude": 12.9921054,
+        "longitude": 80.233177
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Ranneeti 3.0: BGMI Semi Finals",
+    "startTime": "13:00",
+    "endTime": "16:00",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Premier League 2.0 Semi",
+    "startTime": "16:00",
+    "endTime": "19:30",
+    "locations": [
+      {
+        "name": "Sangam Ground",
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Volley Vibes Semi",
+    "startTime": "7:00",
+    "endTime": "10:00",
+    "locations": [
+      {
+        "name": "Volleyball Court",
+        "latitude": 12.9869397,
+        "longitude": 80.2323935
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Ranneeti 3.0: Free Fire Semi Finals",
+    "startTime": "13:00",
+    "endTime": "16:00",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chaser's League Quater- Finals",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "locations": [
+      {
+        "name": "KV",
+        "latitude": 12.9921054,
+        "longitude": 80.233177
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Sprint Saga",
+    "startTime": "17:00",
+    "endTime": "19:00",
+    "locations": [
+      {
+        "name": "KV",
+        "latitude": 12.9921054,
+        "longitude": 80.233177
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Sports Quiz Final",
+    "startTime": "15:00",
+    "endTime": "18:30",
+    "locations": [
+      {
+        "name": "CRC",
+        "latitude": 12.9900553,
+        "longitude": 80.2303441
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Premier League 2.0 Phase 2",
+    "startTime": "7:00",
+    "endTime": "9:00",
+    "locations": [
+      {
+        "name": "Sangam Ground",
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
+      }
+    ],
+    "documentLink": "6th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "DSA Triathlon 2.0",
+    "startTime": "9:00",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Fetch AI Hackathon 2.0",
+    "startTime": "9:00",
+    "endTime": "12:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "DataVista",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Becoming Billionaires 2.0",
+    "startTime": "11:00",
+    "endTime": "13:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Madras Conclave: Speaker 3",
+    "startTime": "15:00",
+    "endTime": "16:30",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Madras Conclave: Speaker 4",
+    "startTime": "16:30",
+    "endTime": "18:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Ghost In Firewall",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "ParaVerse 3.0",
+    "startTime": "14:00",
+    "endTime": "16:30",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "QuantQuest",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Quantageddon 2.0",
+    "startTime": "14:00",
+    "endTime": "17:00",
+    "locations": [
+      {
+        "name": "ICSR/TTJ",
+        "latitude": 12.9917014,
+        "longitude": 80.232102
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Anukriti Workshop RJN 102",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Shutter safari",
+    "startTime": "11:00",
+    "endTime": "13:00",
+    "locations": [
+      {
+        "name": "RJN",
+        "latitude": 12.9900496,
+        "longitude": 80.2322525
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Rapadox",
+    "startTime": "7:00",
+    "endTime": "9:00",
+    "locations": [
+      {
+        "name": "Himalaya Lawn",
+        "latitude": 12.9867607,
+        "longitude": 80.2359581
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "D2D",
+    "startTime": "13:30",
+    "endTime": "16:00",
+    "locations": [
+      {
+        "name": "SAC",
+        "latitude": 12.9893377,
+        "longitude": 80.2377489
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Mr&Ms Paradox",
+    "startTime": "16:30",
+    "endTime": "19:00",
+    "locations": [
+      {
+        "name": "SAC",
+        "latitude": 12.9893377,
+        "longitude": 80.2377489
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Sprint Saga Discuss Throw",
+    "startTime": "7:00",
+    "endTime": "9:00",
+    "locations": [
+      {
+        "name": "KV",
+        "latitude": 12.9921054,
+        "longitude": 80.233177
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Ranneeti 3.0: BGMI Finals",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chaser's League Finals Men+Women",
+    "startTime": "17:00",
+    "endTime": "20:00",
+    "locations": [
+      {
+        "name": "KV",
+        "latitude": 12.9921054,
+        "longitude": 80.233177
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Instructors vs Organizers finals",
+    "startTime": "18:00",
+    "endTime": "20:00",
+    "locations": [
+      {
+        "name": "Sangam Ground",
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Badminton League 2.0 Semis & Finals",
+    "startTime": "11:00",
+    "endTime": "15:30",
+    "locations": [
+      {
+        "name": "Sitara Sports Complex",
+        "latitude": 12.9880192,
+        "longitude": 80.230861
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Premiere League 2.0 Semis + Eliminator",
+    "startTime": "18:30",
+    "endTime": "21:00",
+    "locations": [
+      {
+        "name": "Sangam Ground",
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Ranneeti 3.0: Free Fire",
+    "startTime": "10:00",
+    "endTime": "13:00",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "\"Escape Room Final",
+    "startTime": "13:00",
+    "endTime": "15:00",
+    "locations": [
+      {
+        "name": "RMN",
+        "latitude": 12.9889009,
+        "longitude": 80.2323285
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chess Championship",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "locations": [
+      {
+        "name": "CLT",
+        "latitude": 12.9896141,
+        "longitude": 80.2321059
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Volley Vibes Finals",
+    "startTime": "8:00",
+    "endTime": "11:00",
+    "locations": [
+      {
+        "name": "Volleyball Court",
+        "latitude": 12.9869397,
+        "longitude": 80.2323935
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Champions League Finals",
+    "startTime": "16:30",
+    "endTime": "19:30",
+    "locations": [
+      {
+        "name": "Football Ground",
+        "latitude": 12.9881529,
+        "longitude": 80.2274259
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Chaser's League Semi-Finals (Men and Women)",
+    "startTime": "7:00",
+    "endTime": "9:00",
+    "locations": [
+      {
+        "name": "KV",
+        "latitude": 12.9921054,
+        "longitude": 80.233177
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
+  },
+  {
+    "name": "Paradox Premier League Semis & Eliminator",
+    "startTime": "9:00",
+    "endTime": "10:30",
+    "locations": [
+      {
+        "name": "Sangam Ground",
+        "latitude": 12.9855045,
+        "longitude": 80.2376841
+      }
+    ],
+    "documentLink": "7th June",
+    "organiserEmail": ""
   }
 ]

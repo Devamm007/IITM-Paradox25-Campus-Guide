@@ -25,18 +25,6 @@ const env = nunjucks.configure("views", {
   noCache: true, // Disable caching in development
 });
 
-env.addFilter("toIST", (utcTimeStr) => {
-  const date = new Date(utcTimeStr);
-  return date.toLocaleString("en-IN", {
-    day: "2-digit",
-    month: "2-digit",
-    timeZone: "Asia/Kolkata",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: false,
-  });
-});
-
 app.use(express.urlencoded({ extended: false }));
 app.use("/static", express.static("static"));
 

@@ -26,15 +26,6 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name>HSB- Humanities and Sciences Block</name>
-      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          80.2318035,12.9903705,0
-        </coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
       <name>RMN- Raman Block</name>
       <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
       <Point>
@@ -116,7 +107,7 @@
       </Point>
     </Placemark>
     <Placemark>
-      <name><![CDATA[ICSR & TTJ Auditorium]]></name>
+      <name>ICSR/TTJ Auditorium</name>
       <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
       <Point>
         <coordinates>
@@ -166,6 +157,24 @@
       <Point>
         <coordinates>
           80.2323935,12.9869397,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Manohar C Watsa Stadium</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.2366863,12.9920464,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Stall Area</name>
+      <styleUrl>#icon-1502-0288D1-labelson-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          80.23311030582067,12.988664533166702,0
         </coordinates>
       </Point>
     </Placemark>

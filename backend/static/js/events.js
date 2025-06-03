@@ -2,8 +2,8 @@
 const coordinate = [12.988754577439247, 80.23507761724024];
 
 const bounds = [
-    [12.952753, 80.188374], // Southwest corner (lat, lng)
-    [13.028954, 80.266165]  // Northeast corner (lat, lng)
+    [12.952753, 80.188374],
+    [13.028954, 80.266165]
 ];
 
 const map = L.map('map', {
@@ -122,7 +122,7 @@ const kmlLayer = omnivore.kml('/static/eventsmap.kml')
 document.querySelectorAll('.event-item').forEach(item => {
   item.addEventListener('click', function() {
     const locationName = this.dataset.location;
-    // Find and open corresponding marker popup
+    
     kmlLayer.eachLayer(layer => {
       if (layer.feature?.properties?.name === locationName) {
         map.setView(layer.getLatLng(), 16);
@@ -132,7 +132,7 @@ document.querySelectorAll('.event-item').forEach(item => {
   });
 });
 
-// Geolocation (unchanged from your original)
+// Geolocation
 let userLatLng = null;
 if ("geolocation" in navigator) {
     navigator.geolocation.watchPosition(

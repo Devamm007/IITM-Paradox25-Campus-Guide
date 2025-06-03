@@ -6,11 +6,11 @@ const eventSchema = new mongoose.Schema({
     required: true,
   },
   startTime: {
-    type: Date,
+    type: String,
     required: true,
   },
   endTime: {
-    type: Date,
+    type: String,
     required: true,
   },
   locations: [
@@ -26,7 +26,6 @@ const eventSchema = new mongoose.Schema({
   },
   organiserEmail: {
     type: String,
-    required: true,
   },
 });
 
