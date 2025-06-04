@@ -35,7 +35,7 @@
         <div class="card-body p-0">
           <div style="height: 250px; overflow-y: auto;">
             {% if query %}
-              {% for event in events %}
+              {% for event in filteredEvents %}
               <div class="p-3 border-bottom event-item">
                 <h6 class="text-primary">{{event.name}}</h6>
                 <p class="small mb-1">
